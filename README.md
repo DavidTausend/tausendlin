@@ -19,13 +19,13 @@ The "Tausendlin" website is a comprehensive platform dedicated to providing visi
 
 #### User goals
 
-+As a user, I want to easily find information about popular tourist attractions in Tausendlin.
-+As a user, I want to discover recommendations for local restaurants and cuisine.
-+As a user, I want to easily plan my transportation around the city.
-+As an organization, we want to promote Tausendlin as a top tourist destination.
-+As an organization, we want to leverage social media to connect with travelers and share updates.
-+As an organization, we want to provide cost-effective advertising opportunities for local businesses.
-+As an organization, we want to facilitate user reviews and ratings for attractions.
++ As a user, I want to easily find information about popular tourist attractions in Tausendlin.
++ As a user, I want to discover recommendations for local restaurants and cuisine.
++ As a user, I want to easily plan my transportation around the city.
++ As an organization, we want to promote Tausendlin as a top tourist destination.
++ As an organization, we want to leverage social media to connect with travelers and share updates.
++ As an organization, we want to provide cost-effective advertising opportunities for local businesses.
++ As an organization, we want to facilitate user reviews and ratings for attractions.
 
 ## Technologies
 

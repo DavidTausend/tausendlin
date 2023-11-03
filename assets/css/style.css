@@ -21,10 +21,27 @@ body {
 /* Header */
 header {
     background-color:white;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 
 h1 {
     font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #252525;
+
+}
+
+.red-first-word {
+    color: red;
 }
 
 /* Main content */

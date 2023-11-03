@@ -37,3 +37,6 @@ The "Tausendlin" website is a comprehensive platform dedicated to providing visi
 
 Favicon:
 https://www.flaticon.com/
+
+Google fonts:
+https://fonts.google.com

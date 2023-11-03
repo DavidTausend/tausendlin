@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
-    font-family: 'robot', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Header */
@@ -23,11 +23,12 @@ header {
     background-color:white;
     padding: 0 1rem;
     position: fixed;
-    z-index: 9;
+    z-index: 1000;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    top: 0;
 }
 
 header a {
@@ -52,6 +53,7 @@ main {
     background-color: white;
     /* push the footer down */
     flex: 1 0 auto;
+    margin-top: 20px; 
 }
 
 #menu {
@@ -91,12 +93,6 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-}
-/* Main Content */
-main {
-    background-color: lightblue;
-    /* Make main element take up any surplus space to push footer down*/
-    flex: 1 0 auto;
 }
 
 footer {

@@ -28,7 +28,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    top: 0;
 }
 
 header a {
@@ -53,7 +52,7 @@ main {
     background-color: white;
     /* push the footer down */
     flex: 1 0 auto;
-    margin-top: 20px; 
+    margin-top: 47px; 
 }
 
 #menu {

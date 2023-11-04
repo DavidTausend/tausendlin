@@ -104,6 +104,33 @@ main {
     background: url("../images/background/tausendlin.jpeg") no-repeat center center/cover;
 }
 
+.typing-container {
+    width: 600px; /* Adjust as needed */
+    white-space: nowrap; /* Keeps the content on a single line */
+    overflow: hidden; /* Hide the content that overflows the container's width */
+    border-right: 3px solid; /* The cursor effect */
+    font-family: monospace; /* Typical font for typing effects */
+    font-size: 20px; /* Adjust as needed */
+    max-height: 800px;
+  }
+
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+
+  /* The cursor effect */
+  @keyframes cursorBlink {
+    50% { border-color: transparent; }
+  }
+
+  /* Apply the animations to the container */
+  .typing {
+    animation: typing 5s steps(30, end), cursorBlink .75s step-end infinite;
+    /* Animation duration should match the typing steps */
+  }
+
 /* Footer */
 #social-networks {
     text-align: center;

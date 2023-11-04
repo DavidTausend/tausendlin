@@ -29,8 +29,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    box-shadow: 0 2px 2px #201E20;
-    height: 4rem;
+    /* box-shadow: 0 2px 2px #201E20; */
+    height: 2.8rem;
 }
 
 header a {
@@ -192,7 +192,7 @@ main {
 /* Large devices (laptops and desktop, 992px and up) */
 @media  screen and (min-width: 992px) {
     main {
-        margin-top: 100px; /* Increased margin-top to push content below header shadow for large screens */
+        margin-top: 65px; /* Increased margin-top to push content below header shadow for large screens */
     }
 
     #menu a:hover {

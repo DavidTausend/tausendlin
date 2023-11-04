@@ -10,7 +10,7 @@
 
 /* General styles */
 body {
-    min-width: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* Generic project styles */
@@ -45,14 +45,6 @@ h1 {
 
 .red-first-word {
     color: red;
-}
-
-/* Main content */
-main {
-    background-color: white;
-    /* push the footer down */
-    flex: 1 0 auto;
-    margin-top: 47px; 
 }
 
 #menu {
@@ -94,6 +86,14 @@ nav {
     font-size: 2rem;
 }
 
+/* Main content */
+main {
+    background-color: white;
+    /* push the footer down */
+    flex: 1 0 auto;
+    margin-top: 47px; 
+}
+
 footer {
     background-color:#222330;
     color: ghostwhite;
@@ -101,7 +101,7 @@ footer {
 
 /* Media query: tables and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    /* Hearder */
+    /* Header */
     nav {
         display: block;
         position: relative;

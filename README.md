@@ -40,3 +40,8 @@ https://www.flaticon.com/
 
 Google fonts:
 https://fonts.google.com
+
+Colors:
+#7
+https://webflow.com/blog/best-color-combinations
+ 

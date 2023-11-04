@@ -1,5 +1,6 @@
 /* Google fonts: https://webflow.com/blog/google-fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -94,7 +95,12 @@ main {
     margin-top: 47px; 
 }
 
-* Footer */
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -102,6 +108,11 @@ main {
     justify-content: space-evenly;
     list-style-type: none;
 }
+
+#social-networks li {
+    padding: 0 10px;
+}
+
 /* fonts icons. e.g Facebook,etc */
 #social-networks i {
     font-size: 160%;

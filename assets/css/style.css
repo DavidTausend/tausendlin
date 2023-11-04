@@ -29,6 +29,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    box-shadow: 0 2px 2px #201E20;
+    height: 4rem;
 }
 
 header a {
@@ -72,7 +74,7 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #201E20;
     display: none;
-    top: 100%;
+    top: 4rem;
 }
 
 /* Nav toggle */
@@ -127,6 +129,7 @@ main {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
+        top: auto;
     }
 
     #menu {
@@ -148,13 +151,17 @@ main {
 
      /* Main content */
      main {
-        /* Push main cintent down to accommodate larger header */
+        /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
 }
 
 /* Large devices (laptops and desktop, 992px and up) */
 @media  screen and (min-width: 992px) {
+    main {
+        margin-top: 100px; /* Increased margin-top to push content below header shadow for large screens */
+    }
+
     #menu a:hover {
         /* Your styles for hovered <a> tags here */
         border-bottom: 1px solid #201E20;

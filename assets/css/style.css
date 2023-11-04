@@ -94,10 +94,20 @@ main {
     margin-top: 47px; 
 }
 
-footer {
-    background-color:#222330;
-    color: ghostwhite;
+* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
+/* fonts icons. e.g Facebook,etc */
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+}
+
 
 /* Media query: tables and larger (768px and up) */
 @media screen and (min-width: 768px) {

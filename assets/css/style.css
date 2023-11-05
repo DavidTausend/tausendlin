@@ -403,6 +403,7 @@ main {
     background: #FFFFFF;
     padding: 2em;
     margin: 20px;
+    text-align: center;
 }
 
 fieldset {
@@ -413,4 +414,21 @@ fieldset {
 legend {
     font-weight: bold;
     margin-bottom: 0.5rem;
+    font-size: x-large;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+input[type=text],
+input[type=email],
+input[type=date],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }

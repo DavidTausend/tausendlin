@@ -45,7 +45,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #201E20;
-
+    margin-bottom: 1rem;
 }
 
 .red-first-word {
@@ -173,7 +173,6 @@ main {
     padding: 5%;
 }
 
-
 /* Media query: tables and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -220,4 +219,24 @@ main {
         /* Your styles for hovered <a> tags here */
         border-bottom: 1px solid #201E20;
     }
+}
+
+/* ----------- */
+/* Form page   */
+/* ----------- */
+
+.form {
+    background: #FFFFFF;
+    padding: 2em;
+    margin: 20px;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 1rem;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
 }

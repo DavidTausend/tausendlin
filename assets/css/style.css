@@ -268,6 +268,43 @@ main {
     }
 }
 
+.highlight {
+    background-color: #f0f0f0;
+    /* Light grey background */
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* If you want to stack them on smaller screens */
+}
+
+.content_text {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    /* Left-aligned text */
+}
+
+.content_photo {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    /* Center the photo */
+}
+
+.content_photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    /* Optional: for rounded corners */
+}
+
 
 /* Footer */
 #social-networks {
@@ -325,6 +362,23 @@ main {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 3.8rem;
+    }
+
+    /* place tips */
+    .container {
+        flex-direction: column;
+    }
+
+    .content_text,
+    .content_photo {
+        padding: 10px;
+        text-align: center;
+        /* Center text on smaller screens */
+    }
+
+    .content_photo {
+        order: -1;
+        /* Show the photo above the text on smaller screens */
     }
 }
 

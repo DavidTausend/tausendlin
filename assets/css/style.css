@@ -59,7 +59,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 0.5rem;
 }
 
@@ -97,7 +97,7 @@ main {
     /* push the footer down */
     flex: 1 0 auto;
     /* match header's height */
-    margin-top: 2.8rem; 
+    margin-top: 2.8rem;
 }
 
 /* Hero */
@@ -109,53 +109,165 @@ main {
 }
 
 .typing-container {
-    width: 600px; /* Adjust as needed */
-    white-space: nowrap; /* Keeps the content on a single line */
-    overflow: hidden; /* Hide the content that overflows the container's width */
-    border-right: 3px solid; /* The cursor effect */
-    font-family: monospace; /* Typical font for typing effects */
-    font-size: 20px; /* Adjust as needed */
+    width: 600px;
+    /* Adjust as needed */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    overflow: hidden;
+    /* Hide the content that overflows the container's width */
+    border-right: 3px solid;
+    /* The cursor effect */
+    font-family: monospace;
+    /* Typical font for typing effects */
+    font-size: 20px;
+    /* Adjust as needed */
     max-height: 800px;
-  }
+}
 
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
-  }
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0;
+    }
 
-  /* The cursor effect */
-  @keyframes cursorBlink {
-    50% { border-color: transparent; }
-  }
+    to {
+        width: 100%;
+    }
+}
 
-  /* Apply the animations to the container */
-  .typing {
+/* The cursor effect */
+@keyframes cursorBlink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* Apply the animations to the container */
+.typing {
     animation: typing 5s steps(30, end), cursorBlink .75s step-end infinite;
     /* Animation duration should match the typing steps */
-  }
+}
 
-  #introduction_text {
+#introduction_text {
     width: 90%;
     margin: 1rem auto;
-  }
+}
 
-  #tips_text {
+#tips_text {
     font-size: 280%;
     margin-bottom: 0.5rem;
-  }
+}
 
-  #inspired_text {
+#inspired_text {
     font-size: 180%;
-  }
+}
 
-  #introduction_text p {
+#introduction_text p {
     padding: 2rem 0;
-  }
+}
 
-  /* images grid https://www.w3schools.com/howto/howto_js_image_grid.asp */
+/* Slideshow https://www.w3schools.com/howto/howto_js_image_grid.asp*/
+.slideshow-container {
+    width: 80%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
- 
+}
+
+/* default image */
+.myslides {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.myslides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* This will ensure the image covers the area without stretching */
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    background-color: #201E20;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: -1px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
 
 /* Footer */
 #social-networks {
@@ -180,6 +292,7 @@ main {
 
 /* Media query: tables and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -194,30 +307,32 @@ main {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
+
     .nav-toggle-label {
         display: none;
     }
-    
+
     #logo {
         font-size: 150%;
         line-height: 75px;
         margin: 0 0 5rem;
     }
 
-     /* Main content */
-     main {
+    /* Main content */
+    main {
         /* Push main content down to accommodate larger header */
         margin-top: 3.8rem;
     }
 }
 
 /* Large devices (laptops and desktop, 992px and up) */
-@media  screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
     main {
-        margin-top: 3.8rem; /* Increased margin-top to push content below header shadow for large screens */
+        margin-top: 3.8rem;
+        /* Increased margin-top to push content below header shadow for large screens */
     }
 
     #menu a:hover {

@@ -131,6 +131,24 @@ main {
     /* Animation duration should match the typing steps */
   }
 
+  #introduction_text {
+    width: 90%;
+    margin: 1rem auto;
+  }
+
+  #tips_text {
+    font-size: 280%;
+    margin-bottom: 0.5rem;
+  }
+
+  #inspired_text {
+    font-size: 180%;
+  }
+
+  #introduction_text p {
+    padding: 2rem 0;
+  }
+
 /* Footer */
 #social-networks {
     text-align: center;

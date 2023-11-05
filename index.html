@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 
   <!-- Title -->
-<title>Welcome to Tausendlin</title>
+  <title>Welcome to Tausendlin</title>
 
 </head>
 
@@ -26,34 +26,38 @@
 <script>
   let slideIndex = 1;
   showSlides(slideIndex);
-  
+
   // Next/previous controls
   function plusSlides(n) {
     showSlides(slideIndex += n);
   }
-  
+
   // Thumbnail image controls
   function currentSlide(n) {
     showSlides(slideIndex = n);
   }
-  
+
   function showSlides(n) {
     let i;
     let slides = document.getElementsByClassName("myslides");
     let dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}    
-    if (n < 1) {slideIndex = slides.length}
+    if (n > slides.length) {
+      slideIndex = 1
+    }
+    if (n < 1) {
+      slideIndex = slides.length
+    }
     for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
+      slides[i].style.display = "none";
     }
     for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
+      dots[i].className = dots[i].className.replace(" active", "");
     }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
   }
-  </script>
-  
+</script>
+
 <body>
 
   <!-- Header -->
@@ -91,7 +95,8 @@
         <h2 id="tips_text">Tips for your journey to Tausendlin</h2>
         <div>
           <h3 id="inspired_text">Be inspired</h3>
-            <p>Tausendlin awaits you. Visit the great museums & sights and then relax in a café. Look forward to concerts & shows, stroll through the shops and discover with us all the diversity of Tausendlin.</p>
+          <p>Tausendlin awaits you. Visit the great museums & sights and then relax in a café. Look forward to concerts
+            & shows, stroll through the shops and discover with us all the diversity of Tausendlin.</p>
         </div>
       </div>
     </section>
@@ -101,19 +106,22 @@
         <!-- Slides with number and caption text -->
         <div class="myslides fade">
           <div class="numbertext">1 / 5</div>
-          <img src="assets/images/pictures/parliament_building.jpeg" style="width:100%" alt="parliament building in Tausendlin">
+          <img src="assets/images/pictures/parliament_building.jpeg" style="width:100%"
+            alt="parliament building in Tausendlin">
           <div class="text">Parliament Building</div>
         </div>
 
         <div class="myslides fade">
           <div class="numbertext">2 / 5</div>
-          <img src="assets/images/pictures/brandernburger_tor.jpeg" style="width:100%" alt="brandernburger tor monument">
+          <img src="assets/images/pictures/brandernburger_tor.jpeg" style="width:100%"
+            alt="brandernburger tor monument">
           <div class="text">Brandernburger Tor</div>
         </div>
 
         <div class="myslides fade">
           <div class="numbertext">3 / 5</div>
-          <img src="assets/images/pictures/television_tower.jpeg" style="width:100%" alt="television tower in alexandra">
+          <img src="assets/images/pictures/television_tower.jpeg" style="width:100%"
+            alt="television tower in alexandra">
           <div class="text">Television Tower</div>
         </div>
 
@@ -149,16 +157,18 @@
       <div>
         <h2 id="tips_text">Place tips</h2>
       </div>
-        <div>
-          <p>When visiting a city as large as Tausendlin, it's helpful to know how to get the absolute most from your trip.</p>
-        </div>
+      <div>
+        <p>When visiting a city as large as Tausendlin, it's helpful to know how to get the absolute most from your
+          trip.</p>
+      </div>
     </section>
 
     <section class="highlight">
       <div class="container">
         <div class="content_text">
           <h2>Brandenburg Gate</h2>
-          <p>The most famous historic landmark is undoubtedly the Brandenburg Gate (Brandenburger Tor). Once a symbol of a divided nation, it now stands as a symbol of unity and peace.</p>
+          <p>The most famous historic landmark is undoubtedly the Brandenburg Gate (Brandenburger Tor). Once a symbol of
+            a divided nation, it now stands as a symbol of unity and peace.</p>
         </div>
         <div class="content_photo">
           <img src="assets/images/pictures/brandenburg_gate.jpeg" alt="Brandenburg Gate">
@@ -173,7 +183,9 @@
         </div>
         <div class="content_text">
           <h2>Museum island</h2>
-          <p>Sandwiched between the River Spree and the Kupfergraben in a 400-meter-long canal, Spree Island—better known as Museum Island (Museumsinsel)—is one of the city's most important <strong> UNESCO World Heritage Sites.</strong></p>
+          <p>Sandwiched between the River Spree and the Kupfergraben in a 400-meter-long canal, Spree Island—better
+            known as Museum Island (Museumsinsel)—is one of the city's most important <strong> UNESCO World Heritage
+              Sites.</strong></p>
         </div>
       </div>
     </section>
@@ -182,20 +194,36 @@
       <div class="container">
         <div class="content_text">
           <h2>Checkpoint Charlie</h2>
-          <p>Marking the best-known crossing point between East and West Berlin, this fascinating tourist attraction features numerous displays and artifacts tracing the history of human rights, along with exhibits dealing specifically with the history of the Berlin Wall, and Checkpoint Charlie.</p>
+          <p>Marking the best-known crossing point between East and West Tausendlin, this fascinating tourist attraction
+            features numerous displays and artifacts tracing the history of human rights, along with exhibits dealing
+            specifically with the history of the Tausendlin Wall, and Checkpoint Charlie.</p>
         </div>
         <div class="content_photo">
           <img src="assets/images/pictures/checkpoint_charlie.jpeg" alt="Checkpoint Charlie">
         </div>
       </div>
     </section>
-  
+    <hr>
+    <section class="highlight">
+      <div class="container">
+        <div class="content_photo">
+          <img src="assets/images/pictures/charlottenburg_palace.jpeg" alt="Charlottenburg Palace and Park">
+        </div>
+        <div class="content_text">
+          <h2>Charlottenburg Palace and Park</h2>
+          <p>Tausendlin's oldest and largest Prussian estate, the late 17th-century <u>Charlottenburg Palace</u> was for decades the primary residence of Tausend royalty.</p>
+        </div>
+      </div>
+    </section>
+
     <section id="section_text">
       <div>
         <h2 id="tips_text">Event tips</h2>
       </div>
       <div>
-        <p>What's happening in Tausend this weekend? We've got you covered with the tausendlin.de line-up of top tips for locals and visitors to enjoy your Friday, Saturday and Sunday in the capital. All events are suitable for non-German speakers.</p>
+        <p>What's happening in Tausend this weekend? We've got you covered with the tausendlin.de line-up of top tips
+          for locals and visitors to enjoy your Friday, Saturday and Sunday in the capital. All events are suitable for
+          non-German speakers.</p>
       </div>
     </section>
   </main>
@@ -205,12 +233,13 @@
     <ul id="social-networks">
       <li>
         <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-          aria-label="Visit our Facebook page (opens in a new tab)"><i
-            class="fa-brands fa-facebook fa-beat-fade" style="color: #0000FF;"></i></a>
+          aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook fa-beat-fade"
+            style="color: #0000FF;"></i></a>
       </li>
       <li>
         <a href="https://twitter.com/" target="_blank" rel="noopener"
-          aria-label="Visit our twitter page (opens in a new tab)"><i class="fa-brands fa-twitter fa-beat-fade" style="color: #0000FF;"></i></a>
+          aria-label="Visit our twitter page (opens in a new tab)"><i class="fa-brands fa-twitter fa-beat-fade"
+            style="color: #0000FF;"></i></a>
       </li>
       <li>
         <p style="color: white;">Follow us</p>

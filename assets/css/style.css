@@ -272,6 +272,7 @@ main {
     background-color: #f0f0f0;
     /* Light grey background */
     padding: 20px 0;
+    border: 2px solid white;
 }
 
 .container {
@@ -280,8 +281,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
     /* If you want to stack them on smaller screens */
+    flex-wrap: wrap;
 }
 
 .content_text {

@@ -365,7 +365,7 @@ main {
         margin-top: 3.8rem;
     }
 
-    /* place tips */
+    /* place tips section */
     .container {
         flex-direction: column;
     }
@@ -382,6 +382,7 @@ main {
         /* Show the photo above the text on smaller screens */
     }
 
+    /* form page */
     .review_form {
         width: 95%;
         margin:  10px;
@@ -400,6 +401,18 @@ main {
         /* Your styles for hovered <a> tags here */
         border-bottom: 1px solid #201E20;
     }
+
+    /* form page */
+    .review_form {
+        padding: 2em;
+        width: 50%;
+
+    }
+
+    form {
+        max-width: 600px;
+        margin: auto;
+    }
 }
 
 /* ----------- */
@@ -407,7 +420,7 @@ main {
 /* ----------- */
 
 .review_form {
-    background: #FFFFFF;
+    background: #fafafa;
     background-color: rbga(60, 60, 60, 0.6);
     padding: 2em;
     margin: 20px;

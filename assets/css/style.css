@@ -432,6 +432,10 @@ main {
     margin-right: auto;
 }
 
+.review_form h1 {
+    text-align: center;
+}
+
 form {
     display: flex;
     flex-direction: column;

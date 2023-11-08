@@ -29,11 +29,19 @@ The "Tausendlin" website is a comprehensive platform dedicated to providing visi
 
 #### Company goals
 
-### Features
+## Features
 
-### 404 Page
+## 404 Page
 
 ## Technologies
+
+### Programming Languages
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+### Applications, Plugins & Tools Used
 
 Favicon:
 https://www.flaticon.com/
@@ -44,6 +52,15 @@ https://fonts.google.com
 Colors:
 #7
 https://webflow.com/blog/best-color-combinations
+
+Tiny
+https://tinypng.com/
+
+Git
+
+Gitpod
+
+
  
 
  Video:

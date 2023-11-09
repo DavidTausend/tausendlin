@@ -62,6 +62,31 @@ Gitpod
 
 
  
+Sources:
++ stackoverflow.com - Set uniform box height in CSS image gallery
++ sliderrevolution.com - The best CSS gallery code snippets to use yourself
++ w3schools.com - CSS Image Gallery
++ getbootstrap.com - CSS
++ developer.mozilla.org - Organizing your CSS
++ developer.mozilla.org - Sizing items in CSS
++ stackoverflow.com - How to fill white space with the image
++ support.wix.com - Changing the Spacing Between Gallery Items
++ adinstruments.com - Adding Whitespace to an Image using Microsoft Paint
++ forum.freecodecamp.org - I cannot get my image to fill up my entire page
++ medium.com - Use Snapseed expand tool to add extra space in your...
++ developer.apple.com - Fitting images into available space
++ developer.mozilla.org - letter-spacing
++ w3schools.com - CSS Text Indentation and Spacing
++ css-tricks.com - Creating space between text and images
++ forum.squarespace.com - Adjusting spacing for gallery section and overriding site margin
++ stackoverflow.com - CSS is there a way to set spacing between an image and text within the same class
++ w3.org - C8: Using CSS letter-spacing to control spacing within a word
++ stackoverflow.com - How to use media queries to change between table and list...
++ css-tricks.com - Responsive Data Tables
++ w3schools.com - Responsive Web Design Media Queries
++ w3schools.com - CSS Media Queries Examples
++ toptal.com - Responsive Web Design Media Query Examples Explained
++ blog.logrocket.com - Creating responsive data tables with CSS
 
  Video:
  https://youtube.com/watch?v=SVLsNzL4JwM

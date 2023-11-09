@@ -489,8 +489,12 @@ main {
 /* Form page   */
 /* ----------- */
 
+#background_form {
+    background: url("../images/background/night.jpeg") no-repeat center center/cover;
+}
+
 .review_form {
-    background: #fafafa;
+    background: transparent;
     background-color: rbga(60, 60, 60, 0.6);
     padding: 2em;
     margin: 20px;
@@ -500,15 +504,19 @@ main {
     flex-grow: 1;
     margin-left: auto;
     margin-right: auto;
+    color: #f0f0f0;
+    text-size-adjust: 120%;
 }
 
 .review_form h1 {
     text-align: center;
+    color:#f0f0f0;
 }
 
 form {
     display: flex;
     flex-direction: column;
+    background-color: rgba(60,60,60, 0.6);
 }
 
 fieldset {
@@ -520,6 +528,7 @@ legend {
     font-weight: bold;
     margin-bottom: 0.5rem;
     font-size: x-large;
+    text-align: center;
 }
 
 label {

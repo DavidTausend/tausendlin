@@ -491,6 +491,7 @@ main {
 
 #background_form {
     background: url("../images/background/night.jpeg") no-repeat center center/cover;
+    height: 1300px;
 }
 
 .review_form {
@@ -506,6 +507,7 @@ main {
     margin-right: auto;
     color: #f0f0f0;
     text-size-adjust: 120%;
+    padding-top: 12em;
 }
 
 .review_form h1 {

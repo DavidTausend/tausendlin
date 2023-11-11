@@ -570,3 +570,8 @@ button[type=submit]:hover {
 /* ------------ */
 /* Contact page */
 /* -------------*/
+
+#background_contact {
+    background: url("../images/background/tausendlin_contact_us.jpeg") no-repeat center center/cover;
+    height: 1300px;
+}

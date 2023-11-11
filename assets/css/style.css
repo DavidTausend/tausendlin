@@ -377,6 +377,14 @@ main {
 
 }
 
+/* Video section */
+iframe {
+    margin-left: auto;
+    margin-right: auto;
+    /* Ensures it takes up the full available width */
+    display: block;
+}
+
 
 /* Footer */
 #social-networks {

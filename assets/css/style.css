@@ -53,6 +53,10 @@ h1 {
     color: #990011;
 }
 
+p {
+    font-size: 1.2rem;
+}
+
 #menu {
     font-size: large;
     letter-spacing: 2px;
@@ -91,6 +95,14 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+
+nav.transparent {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+/* Keep your existing styles as they are */
+
 
 /* Main content */
 main {

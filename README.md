@@ -30,7 +30,19 @@ The "Tausendlin" website is a comprehensive platform dedicated to providing visi
 + As an organization, we want to provide cost-effective advertising opportunities for local businesses.
 + As an organization, we want to facilitate user reviews and ratings for attractions.
 
-### Design
+## Design
+
+### Typography
+
+#### Color Scheme
+
+I have chosen the three colors red, white and black that represent the flag of Tausendlin.
+
+
+
+#### Google Fonts
++ Roboto
++ Open Sans
 
 
 

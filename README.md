@@ -76,22 +76,22 @@ I have chosen the three colors red, white and black that represent the flag of T
 
 ### Applications, Plugins & Tools Used
 
-Favicon:
-https://www.flaticon.com/
+[Gitpod](https://www.gitpod.io): I used gitpod as my preferred IDE for coding HTML, CSS, and JavaScript. Facilitated the development process, offering a seamless environment for coding and previewing changes in real-time.
 
-Google fonts:
-https://fonts.google.com
+[Favicon](https://www.flaticon.com/): Flaticon provided me with social media icons that can be used as favicons.
 
-Colors:
-#7
-https://webflow.com/blog/best-color-combinations
+[Google fonts](https://fonts.google.com): Google Fonts enhance the website's typography, ensuring visual appeal and readability.
 
-Tiny
-https://tinypng.com/
+[Mycolor](https://mycolor.space/): The color selection was crucial for web design, impacting the aesthetic and user experience.
 
-Git
+[Tiny](https://tinypng.com/):TingPNG help me to compressed images for the web, reducing file sizes without significant loss of quality, enhancing website loading times.
 
-Gitpod
+[Git](https://git-scm.com/): Git employed for version control, allowing for efficient management of code changes and collaboration.
+
+[ChatGPT] (https://chat.openai.com/auth/login): This tool played a role in inspiring some of the website's text content and was invaluable in checking for spelling or grammatical inaccuracies in the text. It also offered helpful suggestions for ways I could improve the code I wrote, particularly in the areas of accessibility and coming up with good semantic class names.
+
+## Deployment & Local Development
+
 
 
  

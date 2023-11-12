@@ -514,6 +514,7 @@ iframe {
 #background_form {
     background: url("../images/background/night.jpeg") no-repeat center center/cover;
     height: 1300px;
+    padding: 5rem 10% 0 10%;
 }
 
 .review_form {
@@ -529,7 +530,7 @@ iframe {
     margin-right: auto;
     color: #f0f0f0;
     text-size-adjust: 120%;
-    padding-top: 12em;
+    padding-top: 2em;
 }
 
 .review_form h1 {
@@ -596,6 +597,7 @@ button[type=submit]:hover {
 #background_contact {
     background: url("../images/background/tausendlin_contact_us.jpeg") no-repeat center center/cover;
     height: 1300px;
+    padding: 5rem 10% 0 10%;
 }
 
 .contact_form {
@@ -611,7 +613,7 @@ button[type=submit]:hover {
     margin-right: auto;
     color: #f0f0f0;
     text-size-adjust: 120%;
-    padding-top: 12em;
+    padding-top: 2em;
 }
 
 .contact_form h1 {

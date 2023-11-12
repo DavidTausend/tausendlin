@@ -344,12 +344,12 @@ main {
 .gallery {
     margin: 1rem;
     border: 1px solid #ccc;
-    width: calc(33.333% - 2rem);
     /* 3 items per row - margin */
-    box-sizing: border-box;
+    width: calc(33.333% - 2rem);
     /* Include padding and border in the element's width */
-    transition: border-color 0.3s;
+    box-sizing: border-box;
     /* Smooth transition for hover effect */
+    transition: border-color 0.3s;
 }
 
 .gallery:hover {
@@ -359,11 +359,11 @@ main {
 .gallery img {
     width: 100%;
     height: auto;
-    display: block;
-    align-items: center;
     display: flex;
+    align-items: center;
     /* rendering for better scaling */
-    image-rendering: optimizeQuality;
+    image-rendering: auto;
+    align-items: center;
 }
 
 .desc {

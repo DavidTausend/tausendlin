@@ -108,6 +108,12 @@ Sources:
 + w3schools.com - CSS Media Queries Examples
 + toptal.com - Responsive Web Design Media Query Examples Explained
 + blog.logrocket.com - Creating responsive data tables with CSS
++ tara.ai - How to Write Software Design Documents (SDD)
++ lucidchart.com - How to Create Software Design Documents
++ freecodecamp.org - How to write a good software design doc
++ slite.com - Software Design Documentation Template
++ eecs.berkeley.edu - How to Write a Design Document
++ medium.com - Designing better design documentation | Slava Shestopalov
 
  Video:
  https://youtube.com/watch?v=SVLsNzL4JwM

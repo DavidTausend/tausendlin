@@ -50,6 +50,17 @@ I have chosen the three colors red, white and black that represent the flag of T
 
 ### Navigation Bar
 
++ This navigation bar is a key component of the website's user interface, facilitating easy access to various sections. Its responsive design ensures usability across different devices, and its styling is consistent with the overall theme of the website.
+
++ As the user scrolls past the hero section of the page, the navbar becomes sticky and affixes to the top of the viewport.
+
++ A fixed navigation bar allows users to navigate through the page seamlessly, regardless of their position on the website. This is particularly crucial for single-page apps with considerable vertical dimensions, as it helps minimize unnecessary scrolling.
+
++ On smaller screen widths, the navbar menu collapses into a single hamburger icon. This approach prevents the links from becoming too crowded together.
+
+
+### Navigation Bar
+
 ### Hero Section
 
 ### Place tips

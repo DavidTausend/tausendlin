@@ -16,6 +16,7 @@ body {
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     color: #201E20;
+    font-size: 1rem;
 }
 
 /* Header */
@@ -58,6 +59,11 @@ h1 {
 p {
     font-size: 1.2rem;
     padding: 2rem 0;
+    color: #333;
+}
+
+h1, h2, p {
+    font-size: 1.5rem;
 }
 
 /* Menu */

@@ -116,6 +116,7 @@ nav.transparent {
 main {
     flex-grow: 1;
     margin-top: 4rem;
+    padding: 1rem;
 }
 
 /* Hero */

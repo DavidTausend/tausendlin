@@ -33,16 +33,17 @@ The "Tausendlin" website is a comprehensive platform dedicated to providing visi
 ## Design
 
 ### Typography
++ Roboto
++ Open Sans
 
-#### Color Scheme
+
+### Color Scheme
 
 I have chosen the three colors red, white and black that represent the flag of Tausendlin.
 
+### Components
 
-
-#### Google Fonts
-+ Roboto
-+ Open Sans
+### Wireframes
 
 
 
@@ -103,8 +104,53 @@ I have chosen the three colors red, white and black that represent the flag of T
 
 ## Deployment & Local Development
 
+### Deployment
+
+### Local Development
+
+#### How to Fork
+
+#### How to Clone
+
+#### Committing and Pushing Changes
+
+## Testing
+
+### Automated Testing
+
+#### Validator Testing
+
+##### HTML
+
+##### CSS
+
+#### LightHouse
+
+##### Desktop
+
+##### Mobile
+
+##### Improvements
+
+##### Final Score
 
 
+### Manual testing
+
+#### User Stories Testing
+
+#### Full Testing
+
+##### Devices
+
+##### Browsers
+
+
+### Bugs
+
+#### Known Bugs
+
+#### Solved Bugs
  
 Sources:
 + stackoverflow.com - Set uniform box height in CSS image gallery

@@ -486,6 +486,12 @@ iframe {
     .gallery {
         width: calc(100% - 2rem);
     }
+
+    .video-responsive {
+        width: 100%;
+        padding-bottom: 30%;
+        margin: 0 auto; 
+    }
 }
 
 /* Media query: medium screens tables */
@@ -514,18 +520,38 @@ iframe {
         /* Standard padding */
         width: 50%;
     }
+
+    .video-responsive {
+        width: 90%;
+        padding-bottom: 50%;
+        margin: 0 auto;
+    }
 }
 
 /* Media query: larger screens laptops and tables (769px and up) */
 @media screen and (min-width: 769px) {
 
+    h1,
+    h2,
+    p {
+        font-size: 1.1rem;
+    }
+
     /* Header */
+    header {
+        padding: 0 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
     nav {
         display: block;
         position: relative;
         box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
+        width: auto;
+        padding: 0;
         top: auto;
     }
 
@@ -537,52 +563,14 @@ iframe {
         padding-left: 1rem;
     }
 
-    .nav-toggle-label {
-        display: none;
-    }
-
-    #logo {
-        font-size: 150%;
-        line-height: 75px;
-        margin: 0 0 5rem;
-    }
-
-    /* Main content */
-    main {
-        /* Push main content down to accommodate larger header */
-        margin-top: 3.8rem;
-    }
-
-    /* place tips section */
-    .container {
-        flex-direction: column;
-    }
-
-    .content_text,
-    .content_photo {
-        padding: 10px;
-        /* Center text on smaller screens */
-        text-align: center;
-    }
-
-    .content_photo {
-        /* Show the photo above the text on smaller screens */
-        order: -1;
-
-    }
-
     .gallery {
-        /* Set a fixed width for gallery items */
-        width: calc(50% - 2rem);
+        width: calc(33.333% - 2rem);
     }
 
-    /* form page */
-    .review_form {
-        width: 95%;
-        margin: 10px;
-        padding: 1em;
+    .container,
+    .highlight .container {
+        flex-direction: row;
     }
-
 }
 
 /* Media query: larger devices (992px and up) */

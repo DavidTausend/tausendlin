@@ -57,7 +57,6 @@ h1 {
 
 /* Paragraph */
 p {
-    font-size: 1.2rem;
     padding: 2rem 0;
     color: #333;
 }
@@ -180,6 +179,11 @@ main {
 
 #subtitle {
     font-size: 180%;
+}
+
+img {
+    width: auto;
+    height: auto;
 }
 
 /* Slideshow https://www.w3schools.com/howto/howto_js_image_grid.asp*/
@@ -425,7 +429,7 @@ iframe {
 
 /* Media query: cellphones and larger (480pxpx and up) */
 @media screen and (max-width: 480px) {
-    .gallery {
+    .gallery, iframe {
         /* Full width on very small screens */
         width: 100%;
     }

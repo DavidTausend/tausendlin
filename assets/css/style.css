@@ -169,12 +169,12 @@ main {
 
 }
 
-#section_text {
+.section_text {
     width: 90%;
     margin: 1rem auto;
 }
 
-#title {
+.title {
     font-size: 280%;
     margin-bottom: 0.5rem;
 }
@@ -400,7 +400,6 @@ img {
 }
 
 /* Video section */
-
 .video-responsive {
     position: relative;
     padding-bottom: 56.25%;

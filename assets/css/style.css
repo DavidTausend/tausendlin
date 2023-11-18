@@ -475,7 +475,7 @@ iframe {
     }
 
     .container,
-    .highlight .container {
+    .highlight {
         /* Stack elements vertically */
         flex-direction: column;
     }
@@ -575,7 +575,7 @@ iframe {
     }
 
     .container,
-    .highlight .container {
+    .highlight {
         flex-direction: row;
     }
 }
@@ -617,7 +617,7 @@ iframe {
 
     .container,
     .highlight {
-        width: 90%;
+        width: 100%;
     }
 
     .gallery {

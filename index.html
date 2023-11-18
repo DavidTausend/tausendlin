@@ -91,19 +91,21 @@
 
         <div class="myslides fade">
           <div class="numbertext">4 / 5</div>
-          <img src="assets/images/pictures/musium.webp" style="width:100%" loading="lazy" alt="egyptian museum in Tausendlin">
+          <img src="assets/images/pictures/musium.webp" style="width:100%" loading="lazy"
+            alt="egyptian museum in Tausendlin">
           <div class="text">Egyptian Museum</div>
         </div>
 
         <div class="myslides fade">
           <div class="numbertext">5 / 5</div>
-          <img src="assets/images/pictures/charlottenburg_castle.webp" style="width:100%" loading="lazy" alt="charlottenburg castle">
+          <img src="assets/images/pictures/charlottenburg_castle.webp" style="width:100%" loading="lazy"
+            alt="charlottenburg castle">
           <div class="text">Charlottenburg Castle</div>
         </div>
 
         <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <a href="#slide1" class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a href="#slide2" class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
       <br>
 
@@ -250,21 +252,23 @@
 
     </section>
 
-    <!-- Video section -->
-    <section id="section_text">
-      <div>
-        <h2 id="title">Video</h2>
-      </div>
-      <div>
-        <p>There are wonderful locations to explore in Tausenlin, a city that dates back 775 years. Many tourists from
-          throughout the world are welcomed to this amazing city. Visitors come to learn about the most dependable and
-          vigorous Tausend civilization in the history of human civilization. Politics, saints, and battlegrounds all
-          have a wealth of wisdom to impart to their visitors.</p>
-      </div class="video-responsive">
-      <iframe title="Top places" width="680" height="440" src="https://www.youtube.com/embed/ZkBKORnSFt8" frameborder="0" loading="lazy"
-        allowfullscreen></iframe>
-      </iframe>
-    </section>
+   <!-- Video section -->
+<section id="section_text">
+  <div>
+    <h2 id="title">Video</h2>
+  </div>
+  <div>
+    <p>There are wonderful locations to explore in Tausenlin, a city that dates back 775 years. Many tourists from
+      throughout the world are welcomed to this amazing city. Visitors come to learn about the most dependable and
+      vigorous Tausend civilization in the history of human civilization. Politics, saints, and battlegrounds all
+      have a wealth of wisdom to impart to their visitors.</p>
+  </div>
+  <div class="video-responsive">
+    <iframe title="Top places" width="680" height="440" src="https://www.youtube.com/embed/ZkBKORnSFt8"
+      frameborder="0" loading="lazy" allowfullscreen></iframe>
+  </div>
+</section>
+
 </body>
 
 </main>
@@ -333,6 +337,18 @@
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
   }
+  // listeners to prev and next buttons to prevent default link behavior when JS is enabled
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelector('.prev').addEventListener('click', function (event) {
+      event.preventDefault();
+      plusSlides(-1);
+    });
+
+    document.querySelector('.next').addEventListener('click', function (event) {
+      event.preventDefault();
+      plusSlides(1);
+    });
+  });
 </script>
 </body>
 

@@ -1,6 +1,8 @@
 //Font Awesome kit
-src = "https://kit.fontawesome.com/ad080cc682.js"
-crossorigin = "anonymous";
+var faScript = document.createElement('script');
+faScript.src = 'https://kit.fontawesome.com/ad080cc682.js';
+faScript.crossOrigin = 'anonymous';
+document.head.appendChild(faScript);
 
 //Javascrip for the slide images https://www.w3schools.com/howto/howto_js_slideshow.asp
 document.addEventListener('DOMContentLoaded', function () {

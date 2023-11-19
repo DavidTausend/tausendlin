@@ -450,6 +450,17 @@ iframe {
     padding: 5%;
 }
 
+#social-networks p {
+    padding: 0%;
+}
+
+/* Copyright */
+.copyright {
+    text-align: center;
+    color: white;
+    font-size: small;
+}
+
 /* Media query: small screens cellphones (480px and up) */
 @media screen and (max-width: 480px) {
 

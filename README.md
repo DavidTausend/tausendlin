@@ -19,6 +19,8 @@ We're here to take you on an imaginative journey through Tausendlin. Our website
 
 Explore Tausendlin captures the essence of Tausendlin with a focus on bold and striking design, inviting you to explore its rich history, art, culture, and culinary delights. Join us as we unravel the extraordinary story of this captivating city. Your adventure begins here!
 
+<img src="assets/images/readme/website_preview.webp">
+
 
 ## Table of Contents
 
@@ -209,8 +211,11 @@ The wireframes for the project were key in planning the site's layout and functi
 <img src="assets/images/readme/features/contact_form.webp">
 
 + Provides a direct and user-friendly way for visitors to get in touch with the site administrators or Tausendlin representatives.
+
 + The form is structured with clear fields for contact information and inquiries, ensuring ease of communication.
+
 + Designed to be accessible and straightforward, encouraging visitors to reach out with questions, suggestions, or additional information requests.
+
 + Enhances the site's functionality by offering a reliable communication channel, integral for user support and engagement.
 
 
@@ -227,13 +232,45 @@ The wireframes for the project were key in planning the site's layout and functi
 
 ### Footer
 
-<img src="assets/images/readme/features">
+<img src="assets/images/readme/features/footer.webp">
 
 + Contains vital links, contact information, and social media icons, easily accessible on every page.
 
 + Designed for clarity and ease of use, facilitating quick navigation and resource access.
 
 + Offers a cohesive and professional finish to each page of the website.
+
+
+### Future Implementations
+
+#### Enhanced Interactive Features
+
+Plans to integrate more interactive elements like animated transitions and hover effects to enrich the user experience.
+
+
+#### Advanced User Account System
+
+Development of a user account system for personalized experiences, including saved preferences and history.
+
+
+#### Blog Section
+
+Adding a blog section to share updates, stories, and insights related to Tausendlin, encouraging regular user engagement.
+
+
+#### User-Generated Content and Reviews
+
+Facilitating user-generated content and reviews, allowing visitors to share their own experiences and tips.
+
+
+#### Enhanced SEO Strategies
+
+Implementing advanced SEO strategies to improve visibility and ranking on search engines.
+
+
+#### Accessibility
+
+Continuously updating the website to meet the latest accessibility standards, ensuring inclusivity for all users.
 
 
 ## Technologies
@@ -274,20 +311,53 @@ The wireframes for the project were key in planning the site's layout and functi
 
 ## Deployment & Local Development
 
-
 ### Deployment
+
+The site is deployed using GitHub Pages - [Tausendlin](https://github.com/DavidTausend/tausendlin)
+
+To deploy the site using GitHub Pages:
+
+1. Login (or signup) to GitHub.
+2. Go to the repository for this project: [DavidTausend/tausendlin](https://github.com/DavidTausend/tausendlin)
+3. Click the settings button.
+4. Select "Pages" in the left-hand navigation menu.
+5. From the source dropdown, select the "main" branch and press save.
+
+The site has now been deployed. Please note that this process may take a few minutes before the site goes live.
 
 
 ### Local Development
 
-
 #### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project: [DavidTausend/tausendlin](https://github.com/DavidTausend/tausendlin)
+3. Click the "Fork" button in the top right corner.
 
 
 #### How to Clone
 
+To clone the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project: [DavidTausend/tausendlin](https://github.com/DavidTausend/tausendlin)
+3. Click on the "Code" button, select whether you would like to clone with HTTPS, SSH, or GitHub CLI, and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type `git clone` into the terminal and then paste the link you copied in step 3. Press enter.
+
 
 #### Committing and Pushing Changes
+
+After making changes to your local copy, you can commit and push them to GitHub:
+
+1. Open the terminal in the directory of your cloned repository.
+2. Use `git status` to see the changes you've made.
+3. Use `git add .` to stage all changes for commit, or `git add <filename>` to stage specific files.
+4. Use `git commit -m "Your commit message here"` to commit your changes with a descriptive message.
+5. Use `git push origin main` to push your changes to the main branch on GitHub.
+
 
 ## Testing
 
@@ -301,11 +371,26 @@ The wireframes for the project were key in planning the site's layout and functi
 
 #### LightHouse
 
+Lighthouse was employed to evaluate the website's performance, accessibility, best practices, and SEO via Chrome Developer Tools. Future plans include regular Lighthouse audits to continually enhance these aspects, ensuring optimal site efficiency and user experience.
+
+
 ##### Desktop
+
+
 
 ##### Mobile
 
+<img src="assets/images/readme/features/footer.webp">
+
 ##### Improvements
+
+Given the initial suboptimal performance score, I delved into identifying and rectifying the factors contributing to this issue:
+
++ Image Optimization: Recognizing that large image files significantly affect loading times, I optimized all images. This included resizing, compressing, and choosing appropriate file formats without compromising quality.
+
++ Minifying Resources: I implemented the minification of CSS, JavaScript, and HTML files. This process removes unnecessary characters from the code, reducing file size and improving load times.
+
++ Eliminating Render-Blocking Resources: I identified and deferred loading non-critical JavaScript and CSS files that were hindering the initial page rendering.
 
 ##### Final Score
 
@@ -329,44 +414,50 @@ The wireframes for the project were key in planning the site's layout and functi
 
 ## Credits
 
-### Code Used And Tutorials
-
 ### Content
+
+The content and design elements on the website are a fusion of original work, external resources, and community insights.
+
+
+#### External Articles and Guides
+
++ Utilized CSS gallery code snippets and guidance from sites like sliderrevolution.com and w3schools.com.
+
++ Sourced CSS tips and techniques from getbootstrap.com and developer.mozilla.org for organizing and sizing items.
+
+
+#### Community Contributions and Forums
+
++ Gathered insights from stackoverflow.com on uniform box heights in CSS image galleries and filling white space with images.
+
++ Benefited from support.wix.com for adjusting gallery item spacing and from forum.freecodecamp.org for full-page image issues.
+
++ Consulted medium.com and developer.apple.com for image space management and responsive design techniques.
+
+
+#### Design and Spacing Techniques
+
++ Applied principles from css-tricks.com, w3schools.com, and w3.org for creating space between text and images, using CSS text indentation, spacing, and letter-spacing.
+
++ Responsive Design and Media Queries:
+
++ Incorporated responsive design principles and media query techniques from w3schools.com, toptal.com, blog.logrocket.com, and css-tricks.com.
+
+### Software Design Documentation:
+
++ Referred to resources like tara.ai, freecodecamp.org, slite.com, eecs.berkeley.edu, and medium.com for creating effective software design documents.
+
 
 ### Media
 
 ### Acknowledgments
- 
-Sources:
-+ stackoverflow.com - Set uniform box height in CSS image gallery
-+ sliderrevolution.com - The best CSS gallery code snippets to use yourself
-+ w3schools.com - CSS Image Gallery
-+ getbootstrap.com - CSS
-+ developer.mozilla.org - Organizing your CSS
-+ developer.mozilla.org - Sizing items in CSS
-+ stackoverflow.com - How to fill white space with the image
-+ support.wix.com - Changing the Spacing Between Gallery Items
-+ adinstruments.com - Adding Whitespace to an Image using Microsoft Paint
-+ forum.freecodecamp.org - I cannot get my image to fill up my entire page
-+ medium.com - Use Snapseed expand tool to add extra space in your...
-+ developer.apple.com - Fitting images into available space
-+ developer.mozilla.org - letter-spacing
-+ w3schools.com - CSS Text Indentation and Spacing
-+ css-tricks.com - Creating space between text and images
-+ forum.squarespace.com - Adjusting spacing for gallery section and overriding site margin
-+ stackoverflow.com - CSS is there a way to set spacing between an image and text within the same class
-+ w3.org - C8: Using CSS letter-spacing to control spacing within a word
-+ stackoverflow.com - How to use media queries to change between table and list...
-+ css-tricks.com - Responsive Data Tables
-+ w3schools.com - Responsive Web Design Media Queries
-+ w3schools.com - CSS Media Queries Examples
-+ toptal.com - Responsive Web Design Media Query Examples Explained
-+ blog.logrocket.com - Creating responsive data tables with CSS
-+ tara.ai - How to Write Software Design Documents (SDD)
-+ lucidchart.com - How to Create Software Design Documents
-+ freecodecamp.org - How to write a good software design doc
-+ slite.com - Software Design Documentation Template
-+ eecs.berkeley.edu - How to Write a Design Document
-+ medium.com - Designing better design documentation | Slava Shestopalov
+
++ My Mentor,[Matt Bodden](https://github.com/MattBCoding): For his invaluable guidance, feedback, and support throughout the project.
+
++ The Code Institute community: Both my classmates and the wider community provided a supportive environment, greatly enhancing my coding journey with their shared passion and knowledge.
+
++ Open Source Contributors: Thanks to those who provided the tools and resources that facilitated the development process.
+
+This project reflects the collaborative spirit and support of the web development community, and I am deeply appreciative of everyone's contributions.
 
 [Back to Top ^](#introduction)

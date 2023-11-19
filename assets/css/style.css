@@ -151,7 +151,7 @@ main {
     }
 
     to {
-        width: 100%;
+        width: 19%;
     }
 }
 
@@ -165,8 +165,9 @@ main {
 /* Apply the animations to the container */
 .typing {
     /* Animation duration should match the typing steps */
-    animation: typing 5s steps(30, end), cursorBlink .75s step-end infinite;
-
+    animation: typing 5s steps(10, end) forwards,
+    /* Add a delay to the cursor blink animation and limit iterations */
+    cursorBlink .75s step-end 1s 5;         
 }
 
 .section_text {

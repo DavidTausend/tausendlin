@@ -1,4 +1,16 @@
-#Tausendlin 
+<h1 align="center">Tausendlin :european_castle:</h1>
+
+<img src="assets/images/readme/tausendlin_banner.webp" alt="a decorative banner image featuring the Branderburge gate">
+
+<h3 align="center"><a href="https://davidtausend.github.io/tausendlin/">➡️ View the live project here ⬅️</a></h3>
+
+<br/>
+
+<div align="center">
+
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fdavidtausend.github.io%2Ftausendlin%2F)
+
+</div>
 
 
 ## Introduction
@@ -6,6 +18,7 @@
 We're here to take you on an imaginative journey through Tausendlin. Our website is designed to be your single-stop gateway to the vibrant and diverse experiences this city offers.
 
 Explore Tausendlin captures the essence of Tausendlin with a focus on bold and striking design, inviting you to explore its rich history, art, culture, and culinary delights. Join us as we unravel the extraordinary story of this captivating city. Your adventure begins here!
+
 
 ## Table of Contents
 
@@ -60,72 +73,168 @@ Explore Tausendlin captures the essence of Tausendlin with a focus on bold and s
 
 [Generate TOC](https://ecotrust-canada.github.io/markdown-toc/)
 
+
 ## User Experience (UX)
 
-The "Tausendlin" website is a comprehensive platform dedicated to providing visitors with the top 5 best places to explore and enjoy the vibrant city of Tausendlin. This UX design focuses on enhancing the user experience and achieving specific user and organizational goals.
+The "Tausendlin" website is a comprehensive platform dedicated to providing visitors with the top best places to explore and enjoy the vibrant city of Tausendlin. This UX design focuses on enhancing the user experience and achieving specific user and organizational goals.
+
 
 ### User Stories
 
 #### User goals
 
 + As a user, I want to easily find information about popular tourist attractions in Tausendlin.
-+ As a user, I want to discover recommendations for local restaurants and cuisine.
-+ As a user, I want to easily plan my transportation around the city.
++ As a user, I want to discover recommendations for local events and cuisine.
++ As a user, I want to easily plan guide tour around the city.
+
 
 #### Company goals
 
 + As an organization, we want to promote Tausendlin as a top tourist destination.
 + As an organization, we want to leverage social media to connect with travelers and share updates.
 + As an organization, we want to provide cost-effective advertising opportunities for local businesses.
-+ As an organization, we want to facilitate user reviews and ratings for attractions.
++ As an organization, we want to facilitate user reviews and ratings of the travel expierence.
+
 
 ## Design
 
 ### Typography
-+ Roboto
-+ Open Sans
+
+The project features 'Roboto' for body text and 'Open Sans' for headings, combining modernity and readability. This pairing ensures elegance and functionality, with fallback to the browser's default sans-serif font for reliability. Text sizes and spacing are optimized for legibility and aesthetic appeal.
 
 
 ### Color Scheme
 
-I have chosen the three colors red, white and black that represent the flag of Tausendlin.
+<img src="assets/images/readme/design/tausendlin_flag.webp">
+<img src="assets/images/readme/design/color_generation.webp">
+
+The project's color scheme is inspired by the Tausendlin flag, featuring cherry red (#990011) for emphasis and dark grey (#201E20) for body text, creating a professional contrast. The header background is pure white (#FFFFFF) for clear readability. Social network icons are highlighted with distinct colors: blue (#0000FF) for Facebook and Twitter, deep red (#e60f00) for YouTube, and orange-brown (#d24d14) for Instagram.
+
 
 ### Components
 
+TThe project features a component-centric design for versatility and reusability. Key components include a fixed navigational header, a dynamic hero section, and an interactive slideshow container. Highlight sections and galleries are designed to showcase content attractively and cohesively, ensuring a consistent user experience.
+
+
+### Imagery
+
+The project uses imagery aligned with its theme and color scheme, mainly featuring Tausendlin's landmarks and cultural highlights. Formats like slideshows, galleries, and highlight sections, optimized for responsive viewing, enhance the site's visual storytelling and user engagement.
+
+
 ### Wireframes
 
+The wireframes for the project were key in planning the site's layout and functionality. Initially, they offered a basic layout focusing on the arrangement of headers, navigation, and content areas. As the design evolved, these wireframes incorporated detailed elements like typography and color schemes, aiding in visualizing the final design. This process was crucial for ensuring a cohesive and user-friendly website.
+
++ [Desktop wireframe]()
++ [iPad wireframe]()
++ [iPhone wireframe]()
 
 
 ## Features
 
 ### Navigation Bar
 
+<img src="assets/images/readme/features/nav_bar.webp">
 
++ The navigation bar offers easy access to different pages sections and adapts to various screen sizes, aligning with the site's design theme.
 
-+ This navigation bar is a key component of the website's user interface, facilitating easy access to various sections. Its responsive design ensures usability across different devices, and its styling is consistent with the overall theme of the website.
++ It becomes sticky at the top after scrolling past the hero section, allowing quick navigation without scrolling back up.
+ 
 
-+ As the user scrolls past the hero section of the page, the navbar becomes sticky and affixes to the top of the viewport.
+<img src="assets/images/readme/features/burger_tag.webp">
+<img src="assets/images/readme/features/mobile_nav_bar.webp">
 
-+ A fixed navigation bar allows users to navigate through the page seamlessly, regardless of their position on the website. This is particularly crucial for single-page apps with considerable vertical dimensions, as it helps minimize unnecessary scrolling.
-
-+ On smaller screen widths, the navbar menu collapses into a single hamburger icon. This approach prevents the links from becoming too crowded together.
++ On smaller screens, the navbar condenses into a hamburger icon with a feature animation, ensuring a clutter-free and user-friendly interface. When clicked, opens an overlay menu with spaced-out links for easy navigation.
 
 
 ### Hero Section
 
++ Occupying the full screen width and located above the fold, the Hero Section immediately grabs visitor attention.
+
++ It's optimized for visual appeal across devices, from desktops to mobiles, encouraging further engagement with the site.
+
++ This section sets the website's tone, blending impactful visuals with strategic placement for maximum user interaction.
+
+
 ### Place tips
+
+<img src="assets/images/readme/features/highlights.webp">
+
++ Offers practical advice and tips for visitors to Tausendlin, enhancing their travel experience.
+
++ Features an easy-to-navigate layout with a blend of text and images for engaging content presentation.
+
 
 ### Event tips
 
+<img src="assets/images/readme/features/events.webp">
+
++ Showcases upcoming events in Tausendlin, keeping visitors informed about cultural, entertainment, and community happenings.
+
++ The layout is user-friendly, making it easy for visitors to discover and plan for different events.
+
++ Includes detailed descriptions and imagery for each event, enhancing the appeal and providing a comprehensive overview.
+
++ Updated regularly to ensure the information is current and offers a variety of options for different interests and age groups.
+
+
 ### Video
 
-### Footer
+<img src="assets/images/readme/features/video.webp">
+
++ Highlights engaging videos that showcase Tausendlin's attractions, culture, and lifestyle.
+
++ Positioned to capture user interest and provide a dynamic, multimedia experience of the city.
+
++ Videos are thoughtfully selected and embedded for optimal performance across devices.
+
++ Offers visitors a visually immersive way to explore Tausendlin, complementing the textual and photographic content on the site.
+
 
 ### Review form
 
+<img src="assets/images/readme/features/review_form.webp">
+
++ Enables visitors to share their experiences and feedback about Tausendlin, fostering a sense of community and engagement.
+
++ The form is designed for ease of use, with intuitive fields for user input, ensuring a seamless submission process.
+
++ Incorporates essential fields such as ratings, comments, and personal insights, allowing visitors to provide comprehensive reviews.
+
++ Positioned strategically to encourage participation after visitors have explored the site's content, enhancing the interactivity of the user experience.
+
+
 ### Contact form
 
+<img src="assets/images/readme/features/contact_form.webp">
+
++ Provides a direct and user-friendly way for visitors to get in touch with the site administrators or Tausendlin representatives.
++ The form is structured with clear fields for contact information and inquiries, ensuring ease of communication.
++ Designed to be accessible and straightforward, encouraging visitors to reach out with questions, suggestions, or additional information requests.
++ Enhances the site's functionality by offering a reliable communication channel, integral for user support and engagement.
+
+
 ### 404 Page
+
+<img src="assets/images/readme/features">
+
++ Custom-designed to address broken links or non-existent pages in a user-friendly manner.
+
++ Features helpful navigation options and a creative layout to guide visitors back to the main site.
+
++ Aims to reduce user frustration and encourage continued exploration of the website.
+
+
+### Footer
+
+<img src="assets/images/readme/features">
+
++ Contains vital links, contact information, and social media icons, easily accessible on every page.
+
++ Designed for clarity and ease of use, facilitating quick navigation and resource access.
+
++ Offers a cohesive and professional finish to each page of the website.
+
 
 ## Technologies
 
@@ -135,31 +244,48 @@ I have chosen the three colors red, white and black that represent the flag of T
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
+
 ### Applications, Plugins & Tools Used
 
-[Gitpod](https://www.gitpod.io): I used gitpod as my preferred IDE for coding HTML, CSS, and JavaScript. Facilitated the development process, offering a seamless environment for coding and previewing changes in real-time.
+[Gitpod](https://www.gitpod.io): Gitpod served as my primary IDE for HTML, CSS, and JavaScript development, offering a seamless environment for coding and real-time change previews.
 
-[Favicon](https://www.flaticon.com/): Flaticon provided me with social media icons that can be used as favicons.
+[Github](https://github.com/): Github was essential for repository hosting, enabling code sharing, and project management.
 
-[Google fonts](https://fonts.google.com): Google Fonts enhance the website's typography, ensuring visual appeal and readability.
+[Favicon](https://www.flaticon.com/): Flaticon provided a range of social media icons suitable for use as favicons on the site.
 
-[Mycolor](https://mycolor.space/): The color selection was crucial for web design, impacting the aesthetic and user experience.
+[Google fonts](https://fonts.google.com): Used to enhance the website's typography, ensuring visual appeal and readability with a variety of font options.
 
-[Tiny](https://tinypng.com/):TingPNG help me to compressed images for the web, reducing file sizes without significant loss of quality, enhancing website loading times.
+[Mycolor](https://mycolor.space/): Assisted in selecting a cohesive color palette, significantly impacting the website's aesthetic and user experience.
 
-[Git](https://git-scm.com/): Git employed for version control, allowing for efficient management of code changes and collaboration.
+[Tiny](https://tinypng.com/): TinyPNG was instrumental in compressing images for the web, reducing file sizes without substantial quality loss and improving website loading times.
 
-[ChatGPT] (https://chat.openai.com/auth/login): This tool played a role in inspiring some of the website's text content and was invaluable in checking for spelling or grammatical inaccuracies in the text. It also offered helpful suggestions for ways I could improve the code I wrote, particularly in the areas of accessibility and coming up with good semantic class names.
+[Git](https://git-scm.com/): Employed for version control, facilitating efficient code changes management and team collaboration.
+
+[ChatGPT](https://chat.openai.com/auth/login): Provided assistance in content creation, spell-checking, and code improvement suggestions, especially in accessibility and semantic naming.
+
+[Shields](https://shields.io/): Used to create and integrate badges into the README for enhanced project documentation.
+
+[Resize images](https://www.iloveimg.com/resize-image): Utilized for resizing images, ensuring they fit well within the website's design while maintaining quality. This tool was crucial for optimizing images for different screen sizes and improving the overall visual presentation of the site.
+
+[Am I Responsive](https://ui.dev/amiresponsive): This tool was used to display how the website looks across different devices, ensuring responsive design.
+
+[Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=de): Employed for auditing the website's performance, accessibility, and SEO, providing insights for improvements and optimizations.
+
 
 ## Deployment & Local Development
 
+
 ### Deployment
+
 
 ### Local Development
 
+
 #### How to Fork
 
+
 #### How to Clone
+
 
 #### Committing and Pushing Changes
 
@@ -200,6 +326,16 @@ I have chosen the three colors red, white and black that represent the flag of T
 #### Known Bugs
 
 #### Solved Bugs
+
+## Credits
+
+### Code Used And Tutorials
+
+### Content
+
+### Media
+
+### Acknowledgments
  
 Sources:
 + stackoverflow.com - Set uniform box height in CSS image gallery
@@ -233,5 +369,4 @@ Sources:
 + eecs.berkeley.edu - How to Write a Design Document
 + medium.com - Designing better design documentation | Slava Shestopalov
 
- Video:
- https://youtube.com/watch?v=SVLsNzL4JwM
+[Back to Top ^](#introduction)

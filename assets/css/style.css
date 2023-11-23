@@ -443,12 +443,14 @@ iframe {
 
 #social-networks li {
     padding: 0 10px;
+    
 }
 
 /* fonts icons. e.g Facebook,etc */
 #social-networks i {
     font-size: 160%;
     padding: 5%;
+    color: #FFFFFF;
 }
 
 #social-networks p {
@@ -654,7 +656,7 @@ iframe {
 
 .review_form {
     background: transparent;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.8);
     padding: 2em;
     margin: 20px;
     border-radius: 0.5rem;
@@ -744,7 +746,7 @@ button[type=submit]:hover {
 
 .contact_form {
     background: transparent;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.8);
     padding: 2em;
     margin: 20px;
     border-radius: 0.5rem;

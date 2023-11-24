@@ -474,7 +474,7 @@ iframe {
     }
 
     header {
-        padding: 0 0.5rem;
+        padding: 1rem 0.5rem;
     }
 
     nav {
@@ -525,6 +525,10 @@ iframe {
         font-size: 1rem;
     }
 
+    header {
+        padding: 1rem 1rem;
+    }
+
     nav {
         width: 100%;
     }
@@ -565,7 +569,7 @@ iframe {
 
     /* Header */
     header {
-        padding: 0 1rem;
+        padding: 1rem 1rem;
     }
 
     .nav-toggle-label {
@@ -616,7 +620,6 @@ iframe {
     .review_form {
         padding: 2em;
         width: 50%;
-
     }
 
     form {

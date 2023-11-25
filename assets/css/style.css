@@ -534,6 +534,10 @@ iframe {
         width: 100%;
     }
 
+    .typing {
+        animation: none;
+    }
+
     .gallery {
         /* 2 items per row */
         width: calc(50% - 2rem);

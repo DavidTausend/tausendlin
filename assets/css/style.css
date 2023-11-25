@@ -222,8 +222,8 @@ img {
     position: absolute;
     top: 50%;
     width: auto;
-    padding: 16px;
-    margin-top: -22px;
+    padding: 225px;
+    
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -231,6 +231,7 @@ img {
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
+
 
 /* Position the "next button" to the right */
 .next {
@@ -653,7 +654,7 @@ iframe {
 
 #background_form {
     background: url("../images/background/night.jpeg") no-repeat center center/cover;
-    height: 1300px;
+    height: 70rem;
     padding: 5rem 10% 0 10%;
 }
 
@@ -734,7 +735,7 @@ button[type=submit] {
 }
 
 button[type=submit]:hover {
-    background-color: #4a77a8;
+    background-color: #201E20;
 }
 
 /* ------------ */
@@ -743,7 +744,7 @@ button[type=submit]:hover {
 
 #background_contact {
     background: url("../images/background/tausendlin_contact_us.jpeg") no-repeat center center/cover;
-    height: 1300px;
+    height: 45rem;
     padding: 5rem 10% 0 10%;
 }
 

@@ -178,7 +178,7 @@ The wireframes for the project were key in planning the site's layout and functi
 
 ### Review form
 
-<div align="center"><img src="assets/images/readme/features/review_form.webp"><div>
+<div align="center"><img src="assets/images/readme/features/review_form.webp"></div>
 
 - Enables visitors to share their experiences and feedback about Tausendlin, fostering a sense of community and engagement.
 
@@ -294,6 +294,14 @@ Continuously updating the website to meet the latest accessibility standards, en
 
 [Wave](https://wave.webaim.org/): Used for assessing website accessibility, Wave helped identify and rectify accessibility issues, ensuring the site's usability for a diverse range of users. This tool was integral in making the website more inclusive and adhering to accessibility standards.
 
+[Preview](https://support.apple.com/de-de/guide/preview/welcome/mac): Preview was utilized for image editing tasks like resizing and color adjustments, as well as for viewing images. Its ease of use and versatility made it a valuable tool in managing and modifying visual assets for the project.
+
+[Slack](https://slack.com): Used for engaging with the Code Institute's online community, Slack was crucial for asking questions, exchanging ideas, and receiving guidance, significantly aiding in the project's development.
+
+[Google Chrome](https://www.google.com/): Key for testing and debugging, Chrome's Developer Tools were essential for live editing and responsive design checks.
+
+[Balsamiq](https://balsamiq.com): Utilized in the initial design phase, Balsamiq helped in creating wireframes, aiding in the visual and structural planning of the website.
+
 ## Deployment & Local Development
 
 ### Deployment
@@ -382,8 +390,12 @@ Given the initial suboptimal performance score, I delved into identifying and re
 
 ##### Final Score
 
+After implementing these improvements, the final Lighthouse scores reflect significant enhancements in both desktop and mobile performance:
+
 <div align="center"><img src="assets/images/readme/features/lighthouse_desktop_final.webp"></div>
 <div align="center"><img src="assets/images/readme/features/lighthouse_mobile_final.webp"></div>
+
+These final scores demonstrate the successful optimization of the website, resulting in better performance, accessibility, and overall user experience.
 
 ##### Accessibility
 
@@ -393,17 +405,54 @@ My mentor advised me to utilize the WAVE tool to analyze my website. During this
 
 #### User Stories Testing
 
+`User Goals`
+
+| User Goals | How are they achieved? |
+| :------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------- |
+| Easily find information about popular tourist attractions in Tausendlin | The website prominently features sections dedicated to popular attractions, complete with detailed descriptions and images. |
+| Discover recommendations for local events and cuisine | A dedicated section offers insights into local events and cuisine, complete with dates, locations, and descriptions. |
+| Plan guided tours around the city | 	The website provides a clear, user-friendly interface for planning and booking city tours, highlighting various places options. |
+
+
+`Company Goals`
+| Company Goals | How are they achieved? |
+| :------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------- |
+| Promote Tausendlin as a top tourist destination | Through engaging content, high-quality images, and detailed information on attractions, the website effectively showcases Tausendlin’s appeal. |
+| Leverage social media to connect with travelers | Social media links and features are integrated into the website footer, facilitating engagement and content sharing with travelers. |
+| Provide advertising opportunities for local businesses | The website includes sections for local business events, offering visibility to a targeted audience of travelers. |
+| Facilitate user reviews and ratings of travel experiences | A user review and rating system is implemented, allowing visitors to share their experiences and recommendations. |
+
 #### Full Testing
 
 ##### Devices
 
+- 24-inch Desktop Monitor
+- 13-inch MacBook Pro
+- 11 inch iPad Pro
+- iPhone 14 PRO Max
+- Samsung S20 Ultra
+
 ##### Browsers
+
+- Google Chrome
+- Firefox
+- Safari
+- Edge
+- Samsung Internet
 
 ### Bugs
 
 #### Known Bugs
 
+<div align="center"><img src="assets/images/readme/features/know_issue.webp"></div>
+
+- Animation Cursor Positioning: On the welcome animation, the cursor appears in the middle on small devices but at the end on larger screens, creating a noticeable inconsistency.
+
 #### Solved Bugs
+
+- Gallery Description Visibility: Initially, the gallery wasn't displaying the full descriptions of images on smaller screens. This was resolved by reducing the text size and adding a scroll feature for extended descriptions, ensuring readability and accessibility across all devices.
+- Layout Inconsistencies: Adjusted CSS for consistent appearance across browsers and devices.
+- Social Media Link Functionality: Ensured all social media links are operational and open in new tabs.
 
 ## Credits
 

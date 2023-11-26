@@ -19,6 +19,17 @@ body {
     font-size: 1rem;
 }
 
+/* Content wrapper */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.content-wrapper {
+    flex: 1;
+}
+
+
 /* Header */
 header {
     background-color: #FFFFFF;
@@ -206,13 +217,13 @@ img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    color: #000;
 }
 
 .myslides img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* This will ensure the image covers the area without stretching */
 }
 
 /* Next & previous buttons */
@@ -222,16 +233,15 @@ img {
     position: absolute;
     top: 50%;
     width: auto;
-    padding: 225px;
-    
-    color: white;
+    padding: 16px;
+    margin-top: -22px;
+    color: #000;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
-
 
 /* Position the "next button" to the right */
 .next {
@@ -241,7 +251,7 @@ img {
 
 /* Caption text */
 .text {
-    color: #f2f2f2;
+    color: #fff;
     background-color: #201E20;
     font-size: 15px;
     padding: 8px 12px;
@@ -253,8 +263,8 @@ img {
 
 /* Number text (1/3 etc) */
 .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
+    color: #fff;
+    font-size: 0.8rem;
     padding: 8px 12px;
     position: absolute;
     top: 0;

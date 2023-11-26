@@ -100,7 +100,7 @@ The project features 'Roboto' for body text and 'Open Sans' for headings, combin
 
 ### Color Scheme
 
-<img align="center" src="assets/images/readme/design/tausendlin_flag.webp">
+<div align="center"><img src="assets/images/readme/design/tausendlin_flag.webp"></div>
 <img src="assets/images/readme/design/color_generation.webp">
 
 The project's color scheme is inspired by the Tausendlin flag, featuring cherry red (#990011) for emphasis and dark grey (#201E20) for body text, creating a professional contrast. The header background is pure white (#FFFFFF) for clear readability. Social network icons are highlighted with distinct colors: blue (#0000FF) for Facebook and Twitter, deep red (#e60f00) for YouTube, and orange-brown (#d24d14) for Instagram.
@@ -131,7 +131,7 @@ The wireframes for the project were key in planning the site's layout and functi
 
 - It becomes sticky at the top after scrolling past the hero section, allowing quick navigation without scrolling back up.
 
-<img align="center" src="assets/images/readme/features/burger_tag.webp">
+<div align="center"><img src="assets/images/readme/features/burger_tag.webp"></div>
 <img src="assets/images/readme/features/mobile_nav_bar.webp">
 
 - On smaller screens, the navbar condenses into a hamburger icon with a feature animation, ensuring a clutter-free and user-friendly interface. When clicked, opens an overlay menu with spaced-out links for easy navigation.
@@ -144,7 +144,7 @@ The wireframes for the project were key in planning the site's layout and functi
 
 - This section sets the website's tone, blending impactful visuals with strategic placement for maximum user interaction.
 
-### Place tips
+### Places
 
 <img src="assets/images/readme/features/highlights.webp">
 
@@ -152,7 +152,7 @@ The wireframes for the project were key in planning the site's layout and functi
 
 - Features an easy-to-navigate layout with a blend of text and images for engaging content presentation.
 
-### Event tips
+### Events
 
 <img src="assets/images/readme/features/events.webp">
 
@@ -178,7 +178,7 @@ The wireframes for the project were key in planning the site's layout and functi
 
 ### Review form
 
-<img align="center" src="assets/images/readme/features/review_form.webp">
+<div align="center"><img src="assets/images/readme/features/review_form.webp"><div>
 
 - Enables visitors to share their experiences and feedback about Tausendlin, fostering a sense of community and engagement.
 
@@ -190,7 +190,7 @@ The wireframes for the project were key in planning the site's layout and functi
 
 ### Contact form
 
-<img align="center" src="assets/images/readme/features/contact_form.webp">
+<div align="center"><img src="assets/images/readme/features/contact_form.webp"></div>
 
 - Provides a direct and user-friendly way for visitors to get in touch with the site administrators or Tausendlin representatives.
 
@@ -202,13 +202,25 @@ The wireframes for the project were key in planning the site's layout and functi
 
 ### 404 Page
 
-<img src="assets/images/readme/features">
+<img src="assets/images/readme/features/404_page.webp">
 
 - Custom-designed to address broken links or non-existent pages in a user-friendly manner.
 
 - Features helpful navigation options and a creative layout to guide visitors back to the main site.
 
 - Aims to reduce user frustration and encourage continued exploration of the website.
+
+### Thank you
+
+<div align="center"><img src="assets/images/readme/features/Thanks_page.webp"></div>
+
+The "Thank You" page acknowledges form submissions or actions taken by users, featuring:
+
+- Confirmation Message: A message thanking users for their interaction.
+
+- Navigation Link: A prompt to return to the homepage, facilitating further exploration.
+
+- Consistent Design: Maintains the website's visual theme for a seamless user experience.
 
 ### Footer
 
@@ -280,7 +292,7 @@ Continuously updating the website to meet the latest accessibility standards, en
 
 [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=de): Employed for auditing the website's performance, accessibility, and SEO, providing insights for improvements and optimizations.
 
-[Wave](https://wave.webaim.org/):
+[Wave](https://wave.webaim.org/): Used for assessing website accessibility, Wave helped identify and rectify accessibility issues, ensuring the site's usability for a diverse range of users. This tool was integral in making the website more inclusive and adhering to accessibility standards.
 
 ## Deployment & Local Development
 
@@ -336,7 +348,15 @@ After making changes to your local copy, you can commit and push them to GitHub:
 
 ##### HTML
 
+<div align="center"><img src="assets/images/readme/features/lighthouse_desktop.webp"></div>
+
+The W3C Markup Validator confirms the HTML is error-free, ensuring compliance with web standards, as indicated by the Lighthouse report.
+
 ##### CSS
+
+<div align="center"><img src="assets/images/readme/features/lighthouse_desktop.webp"></div>
+
+Validated error-free by the Jigsaw validator, the CSS effectively enhances the site's performance and cross-browser compatibility, as shown in the Lighthouse report.
 
 #### LightHouse
 
@@ -344,9 +364,11 @@ Lighthouse was employed to evaluate the website's performance, accessibility, be
 
 ##### Desktop
 
+<div align="center"><img src="assets/images/readme/features/lighthouse_desktop.webp"></div>
+
 ##### Mobile
 
-<img src="assets/images/readme/features/">
+<div align="center"><img src="assets/images/readme/features/lighthouse_mobile.webp"></div>
 
 ##### Improvements
 
@@ -359,6 +381,13 @@ Given the initial suboptimal performance score, I delved into identifying and re
 - Eliminating Render-Blocking Resources: I identified and deferred loading non-critical JavaScript and CSS files that were hindering the initial page rendering.
 
 ##### Final Score
+
+<div align="center"><img src="assets/images/readme/features/lighthouse_desktop_final.webp"></div>
+<div align="center"><img src="assets/images/readme/features/lighthouse_mobile_final.webp"></div>
+
+##### Accessibility
+
+My mentor advised me to utilize the WAVE tool to analyze my website. During this process, we encountered several errors, including low contrast issues on the slideshow and form buttons. To address this, I altered the button colors to black, enhancing their prominence and significantly improving the contrast for better readability.
 
 ### Manual testing
 
@@ -398,15 +427,15 @@ The content and design elements on the website are a fusion of original work, ex
 
 #### Design and Spacing Techniques
 
-- Applied principles from css-tricks.com, w3schools.com, and w3.org for creating space between text and images, using CSS text indentation, spacing, and letter-spacing.
+- Applied principles from css-tricks.com, youtube.com, w3schools.com, and w3.org for creating space between text and images, using CSS text indentation, spacing, and letter-spacing.
 
 - Responsive Design and Media Queries:
 
-- Incorporated responsive design principles and media query techniques from w3schools.com, toptal.com, blog.logrocket.com, and css-tricks.com.
+- Incorporated responsive design principles and media query techniques from w3schools.com, youtube.com, toptal.com, blog.logrocket.com, and css-tricks.com.
 
 ### Software Design Documentation:
 
-- Referred to resources like tara.ai, freecodecamp.org, slite.com, eecs.berkeley.edu, and medium.com for creating effective software design documents.
+- Referred to resources like tara.ai, youtube.com, freecodecamp.org, slite.com, eecs.berkeley.edu, and medium.com for creating effective software design documents.
 
 ### Media
 
@@ -420,7 +449,7 @@ The content and design elements on the website are a fusion of original work, ex
 
 - Friends: For their encouragement, understanding, testing and feedback, which were essential in refining the project.
 
-- Ruta Tausend (My Wife): Immense gratitude to Ruta for her invaluable support throughout this project. Her insightful reviews, patient understanding, and constant encouragement played a crucial role in refining and shaping the project. Her perspective and feedback were not only essential but a testament to her integral role in this journey.
+- Ruta Tausend (My Wife): Immense gratitude to Ruta for her invaluable support throughout this project. Her insightful reviews, patient understanding, and constant encouragement played a crucial role in refining and shaping the project. Her perspective and feedback were not essential but a testament to her integral role in this journey.
 
 This project reflects the collaborative spirit and support of the web development community, and I am deeply appreciative of everyone's contributions.
 

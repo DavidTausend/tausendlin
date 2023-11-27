@@ -449,13 +449,22 @@ My mentor advised me to utilize the WAVE tool to analyze my website. During this
 `Navbar `
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------------- | --------- |
-| |  |  |  |  |
+| Navbar | Becomes sticky after scrolling past Hero section | Scroll past Hero section | Navbar becomes sticky | Pass ✅ |
+| Navbar Hamburger Icon | On mobile, elements disappear to reveal hamburger icon in the right corner | Resize viewport to mobile width | Hamburger appears and displays as intended | Pass ✅ |
+| Navbar Hamburger Menu | When clicked the Mobile Nav menu dropdown | Click Icon | Mobile Nav menu dropdown | Pass ✅ |
+| Navbar Links | Direct to corresponding sections of the page | Click each navbar link | Each link navigates to the correct section | Pass ✅ |
+| Navbar Design | Consistent appearance across different devices and orientations | Check on various devices and orientations | Navbar maintains consistent design | Pass ✅ |
+| Navbar Responsiveness | Adjusts layout according to screen size | Resize browser window | Navbar layout adjusts properly for different screen sizes | Pass ✅ |
+| Navbar Functionality | All interactive elements work as intended | Test all interactive elements | All elements function correctly | Pass ✅ |
+| Navbar Accessibility | Meets accessibility standards for navigation | Evaluate using accessibility tools | Navbar is accessible as per standards | Pass ✅ |
 
 <br>
 
 `Hero Section`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------------- | --------- |
+| |  |  |  |  |
+| |  |  |  |  |
 | |  |  |  |  |
 
 <br>

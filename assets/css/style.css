@@ -133,7 +133,7 @@ main {
 
 /* Hero */
 #hero {
-  height: 600px;
+  height: 80vh;
   width: 100%;
   background: url("../images/background/tausendlin.jpeg") no-repeat center center/cover;
   padding-top: 1.2rem;
@@ -142,18 +142,11 @@ main {
 /* The typing container */
 
 .typing_container {
-  width: 600px;
-  /* Adjust as needed */
   white-space: nowrap;
-  /* Keeps the content on a single line */
   overflow: hidden;
-  /* Hide the content that overflows the container's width */
   border-right: 3px solid;
-  /* The cursor effect */
   font-family: monospace;
-  /* Typical font for typing effects */
   font-size: 20px;
-  /* Adjust as needed */
   max-height: 800px;
 }
 
@@ -567,6 +560,7 @@ iframe {
   header {
     padding: 1rem 1rem;
   }
+  
 
   .nav-toggle-label {
     display: none;
@@ -649,7 +643,7 @@ iframe {
 #background_form {
   background: url("../images/background/night.jpeg") no-repeat center center/cover;
   height: 70rem;
-  padding: 5rem 10% 0 10%;
+  padding: 2rem 4% 0 4%;
 }
 
 .review_form {
@@ -769,13 +763,14 @@ button[type="submit"]:hover {
 
 #background-not-found {
   background: url("../images/background/brandenburg.jpeg") no-repeat center center/cover;
-  height: 50rem;
-  width: 75%;
+  height: 40rem;
+  width: 70%;
   margin: auto;
   position: relative;
+  margin-top: 5rem;
 }
 
-#background-not-found>h1 {
+#background-not-found>h2 {
   text-align: center;
   color: #fff;
   background: transparent;
@@ -800,4 +795,14 @@ button[type="submit"]:hover {
   color: #fff;
   font-size: xx-large;
   text-shadow: 2px 2px 4px #000000;
+}
+
+/* -------------- */
+/* Thank you page */
+/* -------------- */
+
+#thanks {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }

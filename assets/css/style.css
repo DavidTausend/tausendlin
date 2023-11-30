@@ -62,7 +62,6 @@ h1 {
 
 /* Red first word */
 .red-first-word {
-  /* Red cherry */
   color: #990011;
 }
 
@@ -122,6 +121,17 @@ nav {
 nav.transparent {
   background-color: transparent;
   box-shadow: none;
+}
+
+/* visually hidden */
+.visually-hidden:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
 }
 
 /* Main content */

@@ -463,16 +463,30 @@ My mentor advised me to utilize the WAVE tool to analyze my website. During this
 `Hero Section`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------------- | --------- |
-| |  |  |  |  |
-| |  |  |  |  |
-| |  |  |  |  |
+| Hero Section Visibility | Should be fully visible upon page load | Load website | Hero section is fully visible as intended | Pass ✅ |
+| Hero Image Responsiveness | Image adjusts correctly for different screen sizes | Resize window on various devices | Image scales and fits appropriately on all devices | Pass ✅ |
+| Hero Text Legibility | Text should be clear and readable on all backgrounds | Check text against different backgrounds | Text is legible across all sections of the hero image | Pass ✅ |
+| Call-to-Action Button | Should be prominent and clickable | Click the CTA button | Button is clearly visible and functional | Pass ✅ |
+| Animation Effect | Typing animation runs smoothly |	Observe the typing animation | Animation performs without glitches | Pass ✅ |
+| Hero Section Alignment | Content aligned properly across devices | View on different devices | Content alignment consistent across devices |Pass ✅ |
+| Loading Speed | Hero section loads promptly without delay | Measure loading time | Loads swiftly without noticeable delay | Pass ✅ |
+| Accessibility | Hero section meets accessibility standards | Assess with accessibility tools | Complies with accessibility guidelines | Pass ✅ |
 
 <br>
 
-`Tips Section`
+`Highlights`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------------- | --------- |
-| |  |  |  |  |
+| Section Visibility | Highlight sections should be clearly visible and engaging | View the Highlights page | Sections are visible and attractively presented | Pass ✅ |
+| Image Display | Images in each highlight should load correctly and fit their containers | Check images in different highlights | Images load properly and fit within their designated areas | Pass ✅ |
+| Text Legibility | Descriptive text for each highlight should be easy to read | Read texts in different highlights | Texts are clear and easily readable | Pass ✅ |
+| Link Functionality | Links in highlights, if any, should direct to the correct pages or external sources | Click on links within highlights | All links function as intended | Pass ✅ |
+| Responsive Layout | Content in highlights should adjust appropriately on different devices | Resize browser and test on various devices | Layout adjusts correctly across devices | Pass ✅ |
+| Information Accuracy | Information provided in each highlight should be accurate and up-to-date | Verify information accuracy | Information in highlights is accurate and current | Pass ✅ |
+| Interactive Elements | Any interactive elements like buttons or hover effects should work as expected | Test interactive elements if present | Interactive features perform correctly | Pass ✅ |
+| Accessibility | Highlight sections should meet accessibility standards | Assess with accessibility tools | Complies with accessibility guidelines | Pass ✅ |
+| Loading Performance | Highlight sections should load without significant delay | Measure loading times | Sections load promptly without noticeable delay | Pass ✅ |
+| Consistency in Design | Design elements in highlights should be consistent with the overall website theme | Compare with overall website design | Design is consistent and aligns with the website's theme | Pass ✅ |
 
 <br>
 
@@ -480,19 +494,17 @@ My mentor advised me to utilize the WAVE tool to analyze my website. During this
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------------- | --------- |
 | |  |  |  |  |
-
-<br>
-
-`Highlights`
-| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
-| --------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------------- | --------- |
+| |  |  |  |  |
 | |  |  |  |  |
 
 <br>
 
+
 `Contact Form`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------------- | --------- |
+| |  |  |  |  |
+| |  |  |  |  |
 | |  |  |  |  |
 
 <br>
@@ -501,6 +513,8 @@ My mentor advised me to utilize the WAVE tool to analyze my website. During this
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------------- | --------- |
 | |  |  |  |  |
+| |  |  |  |  |
+| |  |  |  |  |
 
 <br>
 
@@ -508,12 +522,16 @@ My mentor advised me to utilize the WAVE tool to analyze my website. During this
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------------- | --------- |
 | |  |  |  |  |
+| |  |  |  |  |
+| |  |  |  |  |
 
 <br>
 
 `Thank You Section`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------------- | --------- |
+| |  |  |  |  |
+| |  |  |  |  |
 | |  |  |  |  |
 
 ### Bugs

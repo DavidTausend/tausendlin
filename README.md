@@ -572,10 +572,6 @@ My mentor advised me to utilize the WAVE tool to analyze my website. During this
 
 #### Known Bugs
 
-<div align="center"><img src="assets/images/readme/features/know_issue.webp"></div>
-
-- Animation Cursor Positioning: On the welcome animation, the cursor appears in the middle on small devices but at the end on larger screens, creating a noticeable inconsistency.
-
 #### Solved Bugs
 
 - Gallery Description Visibility: Initially, the gallery wasn't displaying the full descriptions of images on smaller screens. This was resolved by reducing the text size and adding a scroll feature for extended descriptions, ensuring readability and accessibility across all devices.

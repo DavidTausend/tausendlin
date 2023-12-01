@@ -26,10 +26,6 @@ body {
   margin: 0;
 }
 
-.content-wrapper {
-  flex: 1;
-}
-
 /* Header */
 header {
   background-color: #ffffff;
@@ -125,12 +121,12 @@ nav.transparent {
 
 /* visually hidden */
 .visually-hidden:not(:focus):not(:active) {
-  clip: rect(0 0 0 0); 
+  clip: rect(0 0 0 0);
   clip-path: inset(50%);
   height: 1px;
   overflow: hidden;
   position: absolute;
-  white-space: nowrap; 
+  white-space: nowrap;
   width: 1px;
 }
 
@@ -143,14 +139,19 @@ main {
 
 /* Hero */
 #hero {
-  height: 80vh;
   width: 100%;
-  background: url("../images/background/tausendlin.jpeg") no-repeat center center/cover;
+  display: flex;
   padding-top: 1.2rem;
+  text-align: center;
+}
+
+.image-container {
+  flex: 1; 
+  height: 100%;
+  overflow: hidden;
 }
 
 /* The typing container */
-
 .typing_container {
   white-space: nowrap;
   overflow: hidden;
@@ -570,7 +571,7 @@ iframe {
   header {
     padding: 1rem 1rem;
   }
-  
+
 
   .nav-toggle-label {
     display: none;
@@ -772,12 +773,11 @@ button[type="submit"]:hover {
 /* -------------- */
 
 #background-not-found {
-  background: url("../images/background/brandenburg.jpeg") no-repeat center center/cover;
-  height: 40rem;
-  width: 70%;
+  width: 40%;
   margin: auto;
   position: relative;
   margin-top: 5rem;
+  text-align: center;
 }
 
 #background-not-found>h2 {

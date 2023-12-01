@@ -493,46 +493,80 @@ My mentor advised me to utilize the WAVE tool to analyze my website. During this
 `Experience Form`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------------- | --------- |
-| |  |  |  |  |
-| |  |  |  |  |
-| |  |  |  |  |
+| Form Visibility | The form should be clearly visible upon accessing the page | Load the 'Share your experience' page | Form is clearly visible and accessible | Pass ✅ |
+| Input Field Functionality | All input fields should accept appropriate data | Enter data into each field | All fields accept the correct type of data | Pass ✅ |
+| Required Fields | Mandatory fields must be filled for form submission | Attempt to submit the form with empty required fields | Form prompts for required fields | Pass ✅ |
+| Date Picker Functionality| The date picker should allow selection of visit dates | Use the date picker in the 'Date of Visit' field | Date picker functions correctly | Pass ✅ |
+| Dropdown Menu | The rating dropdown should list different rating options | Expand the rating dropdown menu | Dropdown displays all rating options | Pass ✅ |
+| Textarea Input | Users should be able to input text in the 'What did you enjoy the most?' field | Type text into the textarea | Textarea accepts user input | Pass ✅ |
+| Checkbox Functionality | Checkboxes should toggle on and off | Click on each checkbox | Checkboxes function correctly | Pass ✅ |
+| Form Submission | Submit button should send data if all fields are properly filled | Fill out the form and click submit | Form submits successfully | Pass ✅ |
+| Responsive Design | The form should adjust appropriately on various screen sizes | Resize browser and test on different devices | Form maintains usability and design integrity across devices | Pass ✅ |
+| Error Handling | Informative error messages should display for incorrect inputs | Intentionally make input errors | Error messages display as expected | Pass ✅ |
 
 <br>
-
 
 `Contact Form`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------------- | --------- |
-| |  |  |  |  |
-| |  |  |  |  |
-| |  |  |  |  |
+| Form Layout and Design | Form should be visually appealing and match the website's theme | Review the form's design on the page | Form is aesthetically consistent with the website's theme | Pass ✅ |
+| Field Validation | All fields should validate user input correctly | Test each field with various inputs | Fields correctly validate inputs | Pass ✅ |
+| Email Field Functionality | Email field should only accept valid email formats | Enter various email formats | Accepts only valid email formats | Pass ✅ |
+| Textarea Functionality | Textarea should allow users to input their message | Type messages into the textarea | Textarea accepts and displays user input | Pass ✅ |
+| Form Submission | Form should submit successfully when all fields are filled correctly | Fill out and submit the form | Form submits without errors | Pass ✅ |
+| Responsive Design | Form should be responsive on various devices | Test the form on different devices | Form adjusts and remains functional across devices | Pass ✅ |
+| Error Handling and Feedback | Users should receive appropriate error messages and feedback | Intentionally make input errors | Clear and helpful error messages are displayed | Pass ✅ |
+| Accessibility | Form should be accessible to all users, including those with disabilities | Check with accessibility tools | Form meets standard accessibility requirements | Pass ✅ |
+| Data Handling | Submitted data should be handled correctly (backend testing) | Submit form and check data handling | Data is handled and processed as expected | Pass ✅ |
+| Privacy and Security | Form should comply with privacy and security standards | Review form's compliance with privacy and security standards | Form adheres to necessary privacy and security measures | Pass ✅ |
 
 <br>
 
 `404 Page`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------------- | --------- |
-| |  |  |  |  |
-| |  |  |  |  |
-| |  |  |  |  |
+| Page Visibility | The 404 error page should be clearly visible when a non-existent URL is accessed | Access a non-existent URL on the website | 404 error page is displayed as intended | Pass ✅ |
+| Error Message Clarity | The error message should be clear and informative | Review the text on the 404 page | Error message is informative and clearly communicates the issue | Pass ✅ |
+| Link to Homepage | 'Back to Tausendlin' link should redirect users to the homepage | Click on the 'Back to Tausendlin' link | Link successfully redirects to the homepage | Pass ✅ |
+| Responsive Design | The 404 page layout should adjust properly on different devices | View the 404 page on various devices | Page maintains responsive design across devices | Pass ✅ |
+| Consistency with Site Theme | The design of the 404 page should be consistent with the overall website theme | Compare the 404 page with other pages on the site | Design is consistent with the site's theme | Pass ✅ |
+| Accessibility | The 404 page should be accessible to all users, including those with disabilities | Assess with accessibility tools | The page meets accessibility standards | Pass ✅ |
+| Navigation Usability | Users should easily navigate back to the main content of the site | Test navigation elements on the page | Navigation is intuitive and functional | Pass ✅ |
+| Load Performance | The 404 page should load promptly without delay | Measure loading time | Page loads quickly without noticeable delays | Pass ✅ |
+| Humor and Tone | The page should maintain a light-hearted tone to ease user frustration | Evaluate the tone of the content | The tone is friendly and eases the error page experience | Pass ✅ |
+| Footer Visibility and Functionality | Footer should be visible and all links functiona | Check the footer and its links | Footer is visible and links work correctly | Pass ✅ |
 
 <br>
 
 `Footer Section`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------------- | --------- |
-| |  |  |  |  |
-| |  |  |  |  |
-| |  |  |  |  |
+| Visibility and Design | Footer should be consistently visible on all pages with a cohesive design | Check footer on various pages | Footer is consistently visible and well-designed across pages | Pass ✅ |
+| Social Media Links | Links to social media should open the correct pages in new tabs | Click on each social media icon | ach link opens the correct social media page in a new tab | Pass ✅ |
+| Responsiveness | Footer should adjust layout appropriately on different screen sizes | View footer on various devices and screen sizes | Footer layout is responsive and maintains usability across devices | Pass ✅ |
+| Copyright Text | Copyright information should be current and correctly displayed | Review the copyright text | Copyright text is accurate and clearly displayed | Pass ✅ |
+| Link Functionality | All footer links should be functional and direct to the correct locations | Test all links in the footer | All links are functional and direct correctly | Pass ✅ |
+| Accessibility | Footer should be accessible, with all elements meeting accessibility standards | Assess with accessibility tools | Footer complies with accessibility standards | Pass ✅ |
+| Hover Effects | Links in the footer should display a hover effect | Hover over links in the footer | Hover effects are present and functioning as expected | Pass ✅ |
+| Load Performance | Footer should load without any delay | Observe the loading of the footer | Footer loads promptly without delay | Pass ✅ |
+| Alignment and Spacing | All elements in the footer should be aligned and spaced properly | Inspect alignment and spacing of elements | Elements are well-aligned and appropriately spaced | Pass ✅ |
+| Consistency Across Browsers | Footer should look and function the same across different browsers | Test in Chrome, Firefox, Safari, and Edge | Footer appears and functions consistently in all tested browsers | Pass ✅ |
 
 <br>
 
-`Thank You Section`
+`Thank You Page`
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------------- | --------- |
-| |  |  |  |  |
-| |  |  |  |  |
-| |  |  |  |  |
+| Page Visibility | The thank you page should be clearly visible upon submission of forms | Submit forms and access the thank you page | Page is clearly visible upon form submission | Pass ✅ |
+| Message Clarity | The thank you message should be clear and convey gratitude | Review the message on the thank you page | Message is clear and effectively communicates gratitude | Pass ✅ |
+| Image Display | The image on the page should load correctly and fit its container | Check the image on the thank you page | Image loads properly and fits within its designated area | Pass ✅ |
+| Link to Homepage | 'Back to Tausendlin' link should redirect users to the homepage | Click on the 'Back to Tausendlin' link | Link successfully redirects to the homepage | Pass ✅ |
+| Responsive Design | The page layout should adjust properly on different devices | View the thank you page on various devices | Page maintains responsive design across devices | Pass ✅ |
+| Loading Performance | The page should load promptly without delay | Measure loading time | Page loads quickly without noticeable delays | Pass ✅ |
+| Footer Visibility and Functionality | Footer should be visible and all links functional | Check the footer and its links on the thank you page | Footer is visible and all links function correctly | Pass ✅ |
+| Consistency with Site Theme | The design of the thank you page should be consistent with the overall website theme | Compare the thank you page with other pages on the site | Design is consistent with the site's theme | Pass ✅ |
+| Accessibility | The thank you page should be accessible to all users, including those with disabilities | Assess with accessibility tools | The page meets accessibility standards | Pass ✅ |
+| Navigation Usability | Users should easily navigate back to the main content of the site | Test navigation elements on the page | Navigation is intuitive and functional | Pass ✅ |
 
 ### Bugs
 

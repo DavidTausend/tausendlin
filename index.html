@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Preload Fonts -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" as="style">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" as="style">
+
   <!-- Meta tags for search engines -->
   <meta name="description" content="Incredible website offering the best 5 places to explore in Tausendlin">
   <meta name="keywords"
@@ -49,20 +53,22 @@
         <li><a href="form.html">Share your experience</a></li>
         <li><a href="highlight.html">Highlights</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><a href="404.html">Brandenburg</a></li>
       </ul>
     </nav>
 
   </header>
   <!-- Main -->
   <main>
-    <!-- Solved issue with images https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images-->
+    <!-- Solved issue with images -->
     <section id="hero">
       <div class="image-container">
         <div>
-          <h2 class="typing_container typing">Welcome to Tausendlin.</h2>
+          <h2 class="typing_container typing" id="typingText">Welcome to Tausendlin</h2>
         </div>
-        <img src="assets/images/background/tausendlin.webp" alt="Tausendlin city" />
+        <img
+          srcset="assets/images/background/large.webp, 1024w, assets/images/background/medium.webp 640w, small.jpeg 320w"
+          sizes="(min-width: 36em) 50vw, 100vw" src="assets/images/background/small.webp" alt="Tausendlin city">
+      </div>
     </section>
     <section class="section_text">
       <div>

@@ -140,13 +140,15 @@ main {
 /* Hero */
 #hero {
   width: 100%;
+  height: auto;
   display: flex;
   padding-top: 1.2rem;
   text-align: center;
 }
 
+/* image wrapper for Hero and 404 */
 .image-container {
-  flex: 1; 
+  flex: 1;
   height: 100%;
   overflow: hidden;
 }
@@ -773,7 +775,7 @@ button[type="submit"]:hover {
 /* -------------- */
 
 #background-not-found {
-  width: 40%;
+  width: 43%;
   margin: auto;
   position: relative;
   margin-top: 5rem;
@@ -782,9 +784,7 @@ button[type="submit"]:hover {
 
 #background-not-found>h2 {
   text-align: center;
-  color: #fff;
-  background: transparent;
-  background-color: rgba(60, 60, 60, 0.8);
+  color: black;
   text-shadow: 2px 2px 4px #000000;
 }
 
@@ -802,8 +802,8 @@ button[type="submit"]:hover {
   position: absolute;
   bottom: 0;
   left: 0;
-  color: #fff;
-  font-size: xx-large;
+  color: black;
+  font-size: x-large;
   text-shadow: 2px 2px 4px #000000;
 }
 

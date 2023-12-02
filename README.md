@@ -405,6 +405,19 @@ These final scores demonstrate the successful optimization of the website, resul
 
 My mentor advised me to utilize the WAVE tool to analyze my website. During this process, we encountered several errors, including low contrast issues on the slideshow and form buttons. To address this, I altered the button colors to black, enhancing their prominence and significantly improving the contrast for better readability.
 
+- Enhancing Button Contrast: Changed button colors to black, greatly improving visibility and readability.
+- Text and Background Contrast: Ensured all text and backgrounds have sufficient contrast.
+- Alt Text for Images: Added descriptive alt text for screen reader accessibility.
+- Keyboard Navigation: Made the site navigable via keyboard for users unable to use a mouse.
+- Semantic HTML: Employed semantic HTML for better structure and readability by screen readers.
+- Form Accessibility: Checked that all form elements are correctly labeled and accessible with assistive technologies.
+- Responsive Design: Confirmed accessibility across various devices and screen sizes.
+
+Even though that I did all the above improments final Wave report addresses all this issue and the error will be found in the know bug section.
+
+<div align="center"><img src="assets/images/readme/testing/wave.webp"></div>
+<div align="center"><img src="assets/images/readme/testing/wave_summary.webp"></div>
+
 ### Manual testing
 
 #### User Stories Testing

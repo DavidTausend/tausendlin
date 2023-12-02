@@ -360,13 +360,13 @@ After making changes to your local copy, you can commit and push them to GitHub:
 
 ##### HTML
 
-<div align="center"><img src="assets/images/readme/features/lighthouse_desktop.webp"></div>
+<div align="center"><img src="assets/images/readme/testing/lighthouse_desktop.webp"></div>
 
 The W3C Markup Validator confirms the HTML is error-free, ensuring compliance with web standards, as indicated by the Lighthouse report.
 
 ##### CSS
 
-<div align="center"><img src="assets/images/readme/features/lighthouse_desktop.webp"></div>
+<div align="center"><img src="assets/images/readme/testing/lighthouse_desktop.webp"></div>
 
 Validated error-free by the Jigsaw validator, the CSS effectively enhances the site's performance and cross-browser compatibility, as shown in the Lighthouse report.
 
@@ -376,11 +376,11 @@ Lighthouse was employed to evaluate the website's performance, accessibility, be
 
 ##### Desktop
 
-<div align="center"><img src="assets/images/readme/features/lighthouse_desktop.webp"></div>
+<div align="center"><img src="assets/images/readme/testing/lighthouse_desktop.webp"></div>
 
 ##### Mobile
 
-<div align="center"><img src="assets/images/readme/features/lighthouse_mobile.webp"></div>
+<div align="center"><img src="assets/images/readme/testing/lighthouse_mobile.webp"></div>
 
 ##### Improvements
 
@@ -396,8 +396,8 @@ Given the initial suboptimal performance score, I delved into identifying and re
 
 After implementing these improvements, the final Lighthouse scores reflect significant enhancements in both desktop and mobile performance:
 
-<div align="center"><img src="assets/images/readme/features/lighthouse_desktop_final.webp"></div>
-<div align="center"><img src="assets/images/readme/features/lighthouse_mobile_final.webp"></div>
+<div align="center"><img src="assets/images/readme/testing/lighthouse_desktop_final.webp"></div>
+<div align="center"><img src="assets/images/readme/testing/lighthouse_mobile_final.webp"></div>
 
 These final scores demonstrate the successful optimization of the website, resulting in better performance, accessibility, and overall user experience.
 
@@ -571,6 +571,15 @@ My mentor advised me to utilize the WAVE tool to analyze my website. During this
 ### Bugs
 
 #### Known Bugs
+
+The WAVE accessibility tool reported a missing label issue on a page element, despite the label being present in the code. Upon encountering this issue, assistance was sought from the Slack community and Code Institute tutors. Despite various attempts and discussions, the problem persisted.
+
+The issue remains unresolved. It is suspected to be a bug within the WAVE tool or an unidentifiable conflict in the code. Future attempts will be made to resolve this issue. This bug may affect the perceived accessibility compliance of the site but does not impact the actual functionality or accessibility from a user's perspective.
+
+<div align="center"><img src="assets/images/readme/know_bugs/wave_bug.webp"></div>
+<div align="center"><img src="assets/images/readme/know_bugs/wave_error_bug.webp"></div>
+<div align="center"><img src="assets/images/readme/know_bugs/add_readme.webp"></div>
+
 
 #### Solved Bugs
 

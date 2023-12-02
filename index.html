@@ -1,163 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Preload Fonts -->
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      as="style"
+    />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      as="style"
+    />
 
-  <!-- Preload Fonts -->
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" as="style">
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" as="style">
+    <!-- Meta tags for search engines -->
+    <meta
+      name="description"
+      content="Incredible website offering the best 5 places to explore in Tausendlin"
+    />
+    <meta
+      name="keywords"
+      content="tausend, tausendlin, visit tausendlin, images tausendlin, videos of tausendlin, come and visit the land of the unknown"
+    />
+    <meta name="author" content="David Tausend" />
 
-  <!-- Meta tags for search engines -->
-  <meta name="description" content="Incredible website offering the best 5 places to explore in Tausendlin">
-  <meta name="keywords"
-    content="tausend, tausendlin, visit tausendlin, images tausendlin, videos of tausendlin, come and visit the land of the unknown">
-  <meta name="author" content="David Tausend">
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/icons/favicon_brandenburger_tor.png"
+    />
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/favicon_brandenburger_tor.png">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="assets/css/style.css">
+    <!-- JavaScript -->
+    <script src="assets/js/slide.js" defer></script>
+    <script src="assets/js/footer.js" defer></script>
 
-  <!-- JavaScript -->
-  <script src="assets/js/slide.js" defer></script>
-  <script src="assets/js/footer.js" defer></script>
+    <!-- Title -->
+    <title>Welcome to Tausendlin</title>
+  </head>
 
-  <!-- Title -->
-  <title>Welcome to Tausendlin</title>
+  <body>
+    <!-- Header -->
+    <header>
+      <a href="index.html">
+        <h1 id="logo">
+          <span class="red-first-word">Visit</span><span> </span>Tausendlin
+        </h1>
+      </a>
 
-</head>
+      <!-- Nav Toggle-->
 
-<body>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-sharp fa-solid fa-bars" style="color: #000000"></i
+        ><span class="visually-hidden">
+          about how to visually hide content</span
+        ></label
+      >
 
-  <!-- Header -->
-  <header>
-    <a href="index.html">
-      <h1 id="logo">
-        <span class="red-first-word">Visit</span><span> </span>Tausendlin
-      </h1>
-    </a>
+      <!-- Navbar -->
+      <nav>
+        <ul id="menu">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="form.html">Share your experience</a></li>
+          <li><a href="highlight.html">Highlights</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- Solved issue with images -->
+      <section id="hero">
+        <div class="image-container">
+          <div>
+            <h2 class="typing_container typing" id="typingText">
+              Welcome to Tausendlin
+            </h2>
+          </div>
+          <img
+            srcset="
+              assets/images/background/large.webp  1024w,
+              assets/images/background/medium.webp  640w,
+              assets/images/background/small.jpeg   320w
+            "
+            sizes="(min-width: 36em) 50vw, 100vw"
+            src="assets/images/background/small.webp"
+            alt="Tausendlin city"
+          />
+        </div>
+      </section>
+      <section class="section_text">
+        <div>
+          <h2 class="title">Tips for your journey to Tausendlin</h2>
+          <div>
+            <h3 id="subtitle">Be inspired</h3>
+            <p>
+              Tausendlin awaits you. Visit the great museums & sights and then
+              relax in a café. Look forward to concerts & shows, stroll through
+              the shops and discover with us all the diversity of Tausendlin.
+            </p>
+          </div>
+        </div>
+        <div class="slideshow-container">
+          <!-- Slides with number and caption text -->
+          <div class="myslides fade slideshow-container">
+            <div class="numbertext">1 / 5</div>
+            <img
+              src="assets/images/pictures/parliament_building.webp"
+              style="width: 100%"
+              loading="lazy"
+              alt="parliament building in Tausendlin"
+            />
+            <div class="text">Parliament Building</div>
+          </div>
 
-    <!-- Nav Toggle-->
-    <input type="checkbox" id="nav-toggle" name="nav-toggle">
-    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-sharp fa-solid fa-bars"
-        style="color: #000000;"></i><span class="visually-hidden">
-        about how to visually hide content</span></label>
+          <div class="myslides fade">
+            <div class="numbertext">2 / 5</div>
+            <img
+              src="assets/images/pictures/brandernburger_tor.webp"
+              style="width: 100%"
+              loading="lazy"
+              alt="brandernburger tor monument"
+            />
+            <div class="text">Brandernburger Tor</div>
+          </div>
 
-    <!-- Navbar -->
-    <nav>
-      <ul id="menu">
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="form.html">Share your experience</a></li>
-        <li><a href="highlight.html">Highlights</a></li>
-        <li><a href="contact.html">Contact</a></li>
+          <div class="myslides fade">
+            <div class="numbertext">3 / 5</div>
+            <img
+              src="assets/images/pictures/television_tower.webp"
+              style="width: 100%"
+              loading="lazy"
+              alt="television tower in alexandra"
+            />
+            <div class="text">Television Tower</div>
+          </div>
+
+          <div class="myslides fade">
+            <div class="numbertext">4 / 5</div>
+            <img
+              src="assets/images/pictures/musium.webp"
+              style="width: 100%"
+              loading="lazy"
+              alt="egyptian museum in Tausendlin"
+            />
+            <div class="text">Egyptian Museum</div>
+          </div>
+
+          <div class="myslides fade">
+            <div class="numbertext">5 / 5</div>
+            <img
+              src="assets/images/pictures/charlottenburg_castle.webp"
+              style="width: 100%"
+              loading="lazy"
+              alt="charlottenburg castle"
+            />
+            <div class="text">Charlottenburg Castle</div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a href="#slide1" class="prev">&#10094;</a>
+          <a href="#slide2" class="next">&#10095;</a>
+        </div>
+        <br />
+
+        <!-- The dots/circles -->
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer>
+      <ul id="social-networks">
+        <li>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Facebook page (opens in a new tab)"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our twitter page (opens in a new tab)"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <p class="copyright">© 2023 David Tausend</p>
+        </li>
+        <li>
+          <a
+            href="https://youtube.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our youtube page (opens in a new tab)"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our instagram page (opens in a new tab)"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
       </ul>
-    </nav>
-
-  </header>
-  <!-- Main -->
-  <main>
-    <!-- Solved issue with images -->
-    <section id="hero">
-      <div class="image-container">
-        <div>
-          <h2 class="typing_container typing" id="typingText">Welcome to Tausendlin</h2>
-        </div>
-        <img
-          srcset="assets/images/background/large.webp 1024w, assets/images/background/medium.webp 640w, assets/images/background/small.jpeg 320w"
-          sizes="(min-width: 36em) 50vw, 100vw" src="assets/images/background/small.webp" alt="Tausendlin city">
-      </div>
-    </section>
-    <section class="section_text">
-      <div>
-        <h2 class="title">Tips for your journey to Tausendlin</h2>
-        <div>
-          <h3 id="subtitle">Be inspired</h3>
-          <p>Tausendlin awaits you. Visit the great museums & sights and then relax in a café. Look forward to concerts
-            & shows, stroll through the shops and discover with us all the diversity of Tausendlin.</p>
-        </div>
-      </div>
-      <div class="slideshow-container">
-
-        <!-- Slides with number and caption text -->
-        <div class="myslides fade slideshow-container">
-          <div class="numbertext">1 / 5</div>
-          <img src="assets/images/pictures/parliament_building.webp" style="width:100%" loading="lazy"
-            alt="parliament building in Tausendlin">
-          <div class="text">Parliament Building</div>
-        </div>
-
-        <div class="myslides fade">
-          <div class="numbertext">2 / 5</div>
-          <img src="assets/images/pictures/brandernburger_tor.webp" style="width:100%" loading="lazy"
-            alt="brandernburger tor monument">
-          <div class="text">Brandernburger Tor</div>
-        </div>
-
-        <div class="myslides fade">
-          <div class="numbertext">3 / 5</div>
-          <img src="assets/images/pictures/television_tower.webp" style="width:100%" loading="lazy"
-            alt="television tower in alexandra">
-          <div class="text">Television Tower</div>
-        </div>
-
-        <div class="myslides fade">
-          <div class="numbertext">4 / 5</div>
-          <img src="assets/images/pictures/musium.webp" style="width:100%" loading="lazy"
-            alt="egyptian museum in Tausendlin">
-          <div class="text">Egyptian Museum</div>
-        </div>
-
-        <div class="myslides fade">
-          <div class="numbertext">5 / 5</div>
-          <img src="assets/images/pictures/charlottenburg_castle.webp" style="width:100%" loading="lazy"
-            alt="charlottenburg castle">
-          <div class="text">Charlottenburg Castle</div>
-        </div>
-
-        <!-- Next and previous buttons -->
-        <a href="#slide1" class="prev">&#10094;</a>
-        <a href="#slide2" class="next">&#10095;</a>
-      </div>
-      <br>
-
-      <!-- The dots/circles -->
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span>
-      </div>
-    </section>
-
-  </main>
-  <!-- footer -->
-  <footer>
-    <ul id="social-networks">
-      <li>
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-          aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-      </li>
-      <li>
-        <a href="https://twitter.com/" target="_blank" rel="noopener"
-          aria-label="Visit our twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
-      </li>
-      <li>
-        <p class="copyright">© 2023 David Tausend</p>
-      </li>
-      <li>
-        <a href="https://youtube.com/" target="_blank" rel="noopener"
-          aria-label="Visit our youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-          aria-label="Visit our instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
-      </li>
-    </ul>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>

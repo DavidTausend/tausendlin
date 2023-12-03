@@ -7,7 +7,8 @@
 
   <!-- Preload Fonts -->
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" as="style" />
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" as="style" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" />
+
 
   <!-- Meta tags for search engines -->
   <meta name="description" content="Incredible website offering the best places to explore in Tausendlin" />
@@ -30,6 +31,7 @@
 </head>
 
 <body>
+
   <!-- Header -->
   <header>
     <a href="index.html">
@@ -41,7 +43,7 @@
     <!-- Nav Toggle-->
     <input type="checkbox" id="nav-toggle" name="nav-toggle" class="visually-hidden">
     <label for="nav-toggle" class="nav-toggle-label">
-      <i class="fa-sharp fa-solid fa-bars" style="color: #000000;" aria-hidden="true"></i>
+      <i class="fa-sharp fa-solid fa-bars" aria-hidden="true"></i>
       <span class="visually-hidden">Toggle navigation</span>
     </label>
 
@@ -55,6 +57,7 @@
       </ul>
     </nav>
   </header>
+
   <!-- Main -->
   <main>
     <!-- Solved issue with images -->
@@ -69,7 +72,7 @@
               assets/images/background/large.webp  1024w,
               assets/images/background/medium.webp  640w,
               assets/images/background/small.webp   320w
-            " sizes="(min-width: 36em) 58vw, 120vw" src="assets/images/background/small.webp" alt="Tausendlin city" />
+            " sizes="(min-width: 36em) 60vw, 100vw" src="assets/images/background/small.webp" alt="Tausendlin city" />
       </div>
     </section>
     <section class="section-text">
@@ -84,40 +87,41 @@
           </p>
         </div>
       </div>
+
+      <!-- Slides with number and caption text -->
       <div class="slideshow-container">
-        <!-- Slides with number and caption text -->
         <div class="myslides fade slideshow-container">
           <div class="numbertext">1 / 5</div>
           <img src="assets/images/pictures/parliament_building.webp" style="width: 100%" loading="lazy"
-            alt="parliament building in Tausendlin" />
+            alt="Parliament building in Tausendlin" />
           <div class="text">Parliament Building</div>
         </div>
 
         <div class="myslides fade">
           <div class="numbertext">2 / 5</div>
-          <img src="assets/images/pictures/brandernburger_tor.webp" style="width: 100%" loading="lazy"
-            alt="brandernburger tor monument" />
-          <div class="text">Brandernburger Tor</div>
+          <img src="assets/images/pictures/brandenburger_gate.webp" style="width: 100%" loading="lazy"
+            alt="Brandernburger Gate monument" />
+          <div class="text">Brandernburger Gate</div>
         </div>
 
         <div class="myslides fade">
           <div class="numbertext">3 / 5</div>
           <img src="assets/images/pictures/television_tower.webp" style="width: 100%" loading="lazy"
-            alt="television tower in Alexandra" />
+            alt="Television Tower in Tausendlin's Alexandra" />
           <div class="text">Television Tower</div>
         </div>
 
         <div class="myslides fade">
           <div class="numbertext">4 / 5</div>
           <img src="assets/images/pictures/musium.webp" style="width: 100%" loading="lazy"
-            alt="egyptian museum in Tausendlin" />
+            alt="Egyptian museum in Tausendlin" />
           <div class="text">Egyptian Museum</div>
         </div>
 
         <div class="myslides fade">
           <div class="numbertext">5 / 5</div>
           <img src="assets/images/pictures/charlottenburg_castle.webp" style="width: 100%" loading="lazy"
-            alt="charlottenburg castle" />
+            alt="Charlottenburg castle" />
           <div class="text">Charlottenburg Castle</div>
         </div>
 
@@ -137,6 +141,7 @@
       </div>
     </section>
   </main>
+
   <!-- footer -->
   <footer>
     <ul id="social-networks">

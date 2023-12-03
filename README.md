@@ -27,51 +27,69 @@ Explore Tausendlin captures the essence of Tausendlin with a focus on bold and s
 - [Introduction](#introduction)
 - [Table of Contents](#table-of-contents)
 - [User Experience (UX)](#user-experience--ux-)
-  - [User Stories](#user-stories)
-    - [User goals](#user-goals)
-    - [Company goals](#company-goals)
+  * [User Stories](#user-stories)
+    + [User goals](#user-goals)
+    + [Company goals](#company-goals)
 - [Design](#design)
-  - [Typography](#typography)
-  - [Color Scheme](#color-scheme)
-  - [Components](#components)
-  - [Wireframes](#wireframes)
+  * [Typography](#typography)
+  * [Color Scheme](#color-scheme)
+  * [Components](#components)
+  * [Imagery](#imagery)
+  * [Wireframes](#wireframes)
 - [Features](#features)
-  - [Navigation Bar](#navigation-bar)
-  - [Hero Section](#hero-section)
-  - [Place tips](#place-tips)
-  - [Event tips](#event-tips)
-  - [Video](#video)
-  - [Footer](#footer)
-  - [Review form](#review-form)
-  - [Contact form](#contact-form)
-  - [404 Page](#404-page)
+  * [Navigation Bar](#navigation-bar)
+  * [Hero Section](#hero-section)
+  * [Places](#places)
+  * [Events](#events)
+  * [Video](#video)
+  * [Review form](#review-form)
+  * [Contact form](#contact-form)
+  * [404 Page](#404-page)
+  * [Thank you](#thank-you)
+  * [Footer](#footer)
+  * [Future Implementations](#future-implementations)
+    + [Enhanced Interactive Features](#enhanced-interactive-features)
+    + [Advanced User Account System](#advanced-user-account-system)
+    + [Blog Section](#blog-section)
+    + [User-Generated Content and Reviews](#user-generated-content-and-reviews)
+    + [Enhanced SEO Strategies](#enhanced-seo-strategies)
+    + [Accessibility](#accessibility)
 - [Technologies](#technologies)
-  - [Programming Languages](#programming-languages)
-  - [Applications, Plugins & Tools Used](#applications--plugins---tools-used)
+  * [Programming Languages](#programming-languages)
+  * [Applications, Plugins & Tools Used](#applications--plugins---tools-used)
 - [Deployment & Local Development](#deployment---local-development)
-  - [Deployment](#deployment)
-  - [Local Development](#local-development)
-    - [How to Fork](#how-to-fork)
-    - [How to Clone](#how-to-clone)
-    - [Committing and Pushing Changes](#committing-and-pushing-changes)
+  * [Deployment](#deployment)
+  * [Local Development](#local-development)
+    + [How to Fork](#how-to-fork)
+    + [How to Clone](#how-to-clone)
+    + [Committing and Pushing Changes](#committing-and-pushing-changes)
 - [Testing](#testing)
-  - [Automated Testing](#automated-testing)
-    - [Validator Testing](#validator-testing)
+  * [Automated Testing](#automated-testing)
+    + [Validator Testing](#validator-testing)
       - [HTML](#html)
       - [CSS](#css)
-    - [LightHouse](#lighthouse)
+    + [LightHouse](#lighthouse)
       - [Desktop](#desktop)
       - [Mobile](#mobile)
       - [Improvements](#improvements)
       - [Final Score](#final-score)
-  - [Manual testing](#manual-testing)
-    - [User Stories Testing](#user-stories-testing)
-    - [Full Testing](#full-testing)
+      - [Accessibility](#accessibility-1)
+  * [Manual testing](#manual-testing)
+    + [User Stories Testing](#user-stories-testing)
+    + [Full Testing](#full-testing)
       - [Devices](#devices)
       - [Browsers](#browsers)
-  - [Bugs](#bugs)
-    - [Known Bugs](#known-bugs)
-    - [Solved Bugs](#solved-bugs)
+  * [Bugs](#bugs)
+    + [Known Bugs](#known-bugs)
+    + [Solved Bugs](#solved-bugs)
+- [Credits](#credits)
+  * [Content](#content)
+    + [External Articles and Guides](#external-articles-and-guides)
+    + [Community Contributions and Forums](#community-contributions-and-forums)
+    + [Design and Spacing Techniques](#design-and-spacing-techniques)
+  * [Software Design Documentation:](#software-design-documentation-)
+  * [Media](#media)
+  * [Acknowledgments](#acknowledgments)
 
 [Generate TOC](https://ecotrust-canada.github.io/markdown-toc/)
 
@@ -94,7 +112,7 @@ The 'Tausendlin' website is a comprehensive platform dedicated to providing visi
 - As an organization, we want to promote Tausendlin as a top tourist destination.
 - As an organization, we want to leverage social media to connect with travelers and share updates.
 - As an organization, we want to provide cost-effective advertising opportunities for local businesses.
-- As an organization, we want to facilitate user reviews and ratings of the travel expierence.
+- As an organization, we want to facilitate user reviews and ratings of the travel experience.
 
 ## Design
 
@@ -119,7 +137,7 @@ The project uses imagery aligned with its theme and color scheme, mainly featuri
 
 ### Wireframes
 
-The wireframes for the project were key in planning the site's layout and functionality. Initially, they offered a basic layout focusing on the arrangement of headers, navigation, and content areas. As the design evolved, these wireframes incorporated detailed elements like typography and color schemes, aiding in visualizing the final design. This process was crucial for ensuring a cohesive and user-friendly website.
+The project's wireframes played a crucial role in planning the site's layout and functionality. Initially, they offered a basic layout focusing on the arrangement of headers, navigation, and content areas. As the design evolved, these wireframes incorporated detailed elements like typography and color schemes, aiding in visualizing the final design. This process was crucial for ensuring a cohesive and user-friendly website.
 
 - [Desktop wireframe]()
 - [iPad wireframe]()
@@ -129,7 +147,7 @@ The wireframes for the project were key in planning the site's layout and functi
 
 ### Navigation Bar
 
-<img src="assets/images/readme/features/nav_bar.webp">
+<img align="center" src="assets/images/readme/features/nav_bar.webp">
 
 - The navigation bar offers easy access to different pages sections and adapts to various screen sizes, aligning with the site's design theme.
 
@@ -240,15 +258,15 @@ The "Thank You" page acknowledges form submissions or actions taken by users, fe
 
 #### Enhanced Interactive Features
 
-Plans to integrate more interactive elements like animated transitions and hover effects to enrich the user experience.
+Plan to integrate more interactive elements like animated transitions and hover effects to enrich the user experience.
 
 #### Advanced User Account System
 
-Development of a user account system for personalized experiences, including saved preferences and history.
+Development of an user account system for personalized experiences, including saved preferences and history.
 
 #### Blog Section
 
-Adding a blog section to share updates, stories, and insights related to Tausendlin, encouraging regular user engagement.
+Adding a blog section to share updates, stories, and insights related to Tausendlin encouraging regular user engagement.
 
 #### User-Generated Content and Reviews
 
@@ -413,7 +431,7 @@ My mentor advised me to utilize the WAVE tool to analyze my website. During this
 - Form Accessibility: Checked that all form elements are correctly labeled and accessible with assistive technologies.
 - Responsive Design: Confirmed accessibility across various devices and screen sizes.
 
-Even though that I did all the above improments final Wave report addresses all this issue and the error will be found in the know bug section.
+Even though I implemented all the above improvements, the final Wave report still addresses these issues and the error will be found in the know bug section.
 
 <div align="center"><img src="assets/images/readme/know_bugs/wave_error_bug.webp"></div>
 <div align="center"><img src="assets/images/readme/testing/wave_summary.webp"></div>
@@ -645,7 +663,7 @@ The content and design elements on the website are a fusion of original work, ex
 
 - Friends: For their encouragement, understanding, testing and feedback, which were essential in refining the project.
 
-- Ruta Tausend: I extend immense gratitude to my wife, Ruta Tausend, for her invaluable support throughout this project. Her insightful reviews, patient understanding, and constant encouragement played a crucial role in refining and shaping the project. Her perspective and feedback were not essential but a testament to her integral role in this journey.
+- Ruta Tausend: I extend immense gratitude to my wife, Ruta Tausend, for her invaluable support throughout this project. Her insightful reviews, patient understanding, and constant encouragement played a crucial role in refining and shaping the project. Her perspective and feedback were not only essential but also a testament to her integral role in this journey.
 
 This project reflects the collaborative spirit and support of the web development community, and I am deeply appreciative of everyone's contributions.
 

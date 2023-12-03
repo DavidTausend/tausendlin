@@ -1,6 +1,6 @@
 <h1 align="center">Tausendlin :european_castle:</h1>
 
-<img src="assets/images/readme/tausendlin_banner.webp" alt="a decorative banner image featuring the Branderburge gate">
+<img src="assets/images/readme/tausendlin_banner.webp" alt="A decorative banner image featuring the Brandenburg Gate">
 
 <h3 align="center"><a href="https://davidtausend.github.io/tausendlin/">➡️ View the live project here ⬅️</a></h3>
 
@@ -79,7 +79,7 @@ Explore Tausendlin captures the essence of Tausendlin with a focus on bold and s
 
 ## User Experience (UX)
 
-The "Tausendlin" website is a comprehensive platform dedicated to providing visitors with the top best places to explore and enjoy the vibrant city of Tausendlin. This UX design focuses on enhancing the user experience and achieving specific user and organizational goals.
+The 'Tausendlin' website is a comprehensive platform dedicated to providing visitors with the best places to explore and enjoy the vibrant city of Tausendlin. The UX design of this website focuses on enhancing the user experience and achieving specific user and organizational goals.
 
 ### User Stories
 
@@ -100,18 +100,18 @@ The "Tausendlin" website is a comprehensive platform dedicated to providing visi
 
 ### Typography
 
-The project features 'Roboto' for body text and 'Open Sans' for headings, combining modernity and readability. This pairing ensures elegance and functionality, with fallback to the browser's default sans-serif font for reliability. Text sizes and spacing are optimized for legibility and aesthetic appeal.
+The project features 'Roboto' for body text and 'Open Sans' for headings, combining modernity and readability. This pairing ensures elegance and functionality, with a fallback to the browser's default sans-serif font for reliability. Text sizes and spacing are optimized for legibility and aesthetic appeal.
 
 ### Color Scheme
 
 <div align="center"><img src="assets/images/readme/design/tausendlin_flag.webp"></div>
 <img src="assets/images/readme/design/color_generation.webp">
 
-The project's color scheme is inspired by the Tausendlin flag, featuring cherry red (#990011) for emphasis and dark grey (#201E20) for body text, creating a professional contrast. The header background is pure white (#FFFFFF) for clear readability. Social network icons are highlighted with distinct colors: blue (#0000FF) for Facebook and Twitter, deep red (#e60f00) for YouTube, and orange-brown (#d24d14) for Instagram.
+The project's color scheme is inspired by the Tausendlin flag, featuring cherry red (#990011) for emphasis and dark grey (#201E20) for body text, creating a professional contrast. The header background is pure white (#FFFFFF) for clear readability. Social network icons are highlighted with a white color, standing out against the darker elements of the design, ensuring they are immediately noticeable and accessible.
 
 ### Components
 
-TThe project features a component-centric design for versatility and reusability. Key components include a fixed navigational header, a dynamic hero section, and an interactive slideshow container. Highlight sections and galleries are designed to showcase content attractively and cohesively, ensuring a consistent user experience.
+The project features a component-centric design for versatility and reusability. Key components include a fixed navigational header, a dynamic hero section, and an interactive slideshow container. Highlight sections and galleries are designed to showcase content attractively and cohesively, ensuring a consistent user experience.
 
 ### Imagery
 
@@ -360,13 +360,13 @@ After making changes to your local copy, you can commit and push them to GitHub:
 
 ##### HTML
 
-<div align="center"><img src="assets/images/readme/testing/lighthouse_desktop.webp"></div>
+<div align="center"><img src="assets/images/readme/testing/html_validator.webp"></div>
 
 The W3C Markup Validator confirms the HTML is error-free, ensuring compliance with web standards, as indicated by the Lighthouse report.
 
 ##### CSS
 
-<div align="center"><img src="assets/images/readme/testing/lighthouse_desktop.webp"></div>
+<div align="center"><img src="assets/images/readme/testing/css_validator.webp"></div>
 
 Validated error-free by the Jigsaw validator, the CSS effectively enhances the site's performance and cross-browser compatibility, as shown in the Lighthouse report.
 
@@ -415,8 +415,9 @@ My mentor advised me to utilize the WAVE tool to analyze my website. During this
 
 Even though that I did all the above improments final Wave report addresses all this issue and the error will be found in the know bug section.
 
-<div align="center"><img src="assets/images/readme/testing/wave.webp"></div>
+<div align="center"><img src="assets/images/readme/know_bugs/wave_error_bug.webp"></div>
 <div align="center"><img src="assets/images/readme/testing/wave_summary.webp"></div>
+<div align="center"><img src="assets/images/readme/testing/wave.webp"></div>
 
 ### Manual testing
 
@@ -644,7 +645,7 @@ The content and design elements on the website are a fusion of original work, ex
 
 - Friends: For their encouragement, understanding, testing and feedback, which were essential in refining the project.
 
-- Ruta Tausend (My Wife): Immense gratitude to Ruta for her invaluable support throughout this project. Her insightful reviews, patient understanding, and constant encouragement played a crucial role in refining and shaping the project. Her perspective and feedback were not essential but a testament to her integral role in this journey.
+- Ruta Tausend: I extend immense gratitude to my wife, Ruta Tausend, for her invaluable support throughout this project. Her insightful reviews, patient understanding, and constant encouragement played a crucial role in refining and shaping the project. Her perspective and feedback were not essential but a testament to her integral role in this journey.
 
 This project reflects the collaborative spirit and support of the web development community, and I am deeply appreciative of everyone's contributions.
 

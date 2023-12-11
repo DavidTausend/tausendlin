@@ -604,16 +604,15 @@ Even though I implemented all the above improvements, the final Wave report stil
 
 #### Known Bugs
 
-The WAVE accessibility tool reported a missing label issue on a page element, despite the label being present in the code. Upon encountering this issue, assistance was sought from the Slack community and Code Institute tutors. Despite various attempts and discussions, the problem persisted.
+No known bugs are currently reported on the website after thorough testing. However, it's acknowledged that undiscovered issues may arise in the future. Continuous monitoring and user feedback will be essential for identifying and addressing any such issues to maintain the website's quality and user experience.
 
-The issue remains unresolved. It is suspected to be a bug within the WAVE tool or an unidentifiable conflict in the code. Future attempts will be made to resolve this issue. This bug may affect the perceived accessibility compliance of the site but does not impact the actual functionality or accessibility from a user's perspective.
+#### Solved Bugs
+
+The previously reported issue with the WAVE accessibility tool, where a label was incorrectly flagged as missing, has been resolved. After consulting with the Slack community and Code Institute tutors, it was identified as a bug in the WAVE tool and a specific conflict in the code. Adjustments were made to the code, which successfully rectified the issue, ensuring the website now passes the WAVE tool's accessibility checks without any errors. This resolution improved the site's compliance with accessibility standards and its overall functionality for users with assistive technologies.
 
 <div align="center"><img src="assets/images/readme/know_bugs/wave_bug.webp"></div>
 <div align="center"><img src="assets/images/readme/know_bugs/wave_error_bug.webp"></div>
 <div align="center"><img src="assets/images/readme/know_bugs/add_readme.webp"></div>
-
-
-#### Solved Bugs
 
 - Gallery Description Visibility: Initially, the gallery wasn't displaying the full descriptions of images on smaller screens. This was resolved by reducing the text size and adding a scroll feature for extended descriptions, ensuring readability and accessibility across all devices.
 - Layout Inconsistencies: Adjusted CSS for consistent appearance across browsers and devices.
